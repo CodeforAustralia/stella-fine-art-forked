@@ -1,0 +1,293 @@
+.commission-container .bg-image {
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 10%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url('../../Assets/Images/globalimages/sunrise.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 190px;
+}
+
+/* Position text in the middle of the page/image */
+.commission-container .bg-text h1 {
+  font-weight: 400;
+}
+.commission-container .bg-text {
+  text-align: center;
+  position: absolute;
+  line-height: 2;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.commission-container .bg-text p {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.commission-container .commission-note {
+  position: relative;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.commission-container .commission-note p {
+  margin-top: 10px;
+
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgba(97, 94, 94, 0.99);
+}
+
+.commission-container .commission-images-row {
+  margin-right: auto;
+  margin-left: auto;
+  width: 65%;
+  max-height: 400px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 2rem;
+  gap: 7px;
+  margin-bottom: 5rem;
+}
+
+.commission-container .commission-image-column {
+  margin-right: 6px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  margin-right: auto;
+  margin-left: auto;
+}
+.commission-container .commission-image-column img {
+  max-width: 100%;
+  max-height: 400px;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: auto;
+  margin-left: auto;
+}
+.column:last-child {
+  padding-right: 0px;
+}
+.column:first-child {
+  padding-left: 5px;
+}
+/* overlay on hover */
+
+/* testimonial */
+.commission-container .testimonials h1 {
+  font-weight: 500;
+}
+
+.commission-container .testimonials {
+  align-items: center;
+  width: 97%;
+  margin: 6rem auto;
+  /* font: 400 100%/1 system-ui; */
+  /* background: red; */
+  font-size: 16px;
+  display: grid;
+  justify-items: center;
+  padding-bottom: 2rem;
+  z-index: -1;
+  position: static;
+}
+.commission-container .testimonial-row:first-child {
+  margin-top: 3rem;
+}
+.commission-container .testimonial-row {
+  margin-top: 1rem;
+  width: 75%;
+  padding: 15px;
+  background-color: rgba(72, 98, 85, 0.1);
+  box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
+  display: flex;
+  z-index: 1;
+}
+
+.commission-container .testimonial-row .column-left img {
+  border-radius: 5px;
+  max-width: 300px;
+  height: auto;
+}
+
+.commission-container .testimonial-row .column-right {
+  /* max-width: 900px; */
+  margin-left: 1.4rem;
+  color: #6c6a6a;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-style: italic;
+  font-size: 16px;
+}
+.commission-container .testimonials #testimonial-heading {
+  color: rgb(97, 94, 94);
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+/* overlay */
+/* table */
+.table-container {
+  text-align: center;
+  margin-top: 5rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.table-container p {
+  font-size: 16px;
+  color: rgba(97, 94, 94, 0.99);
+}
+table {
+  margin: 4rem auto;
+  width: 60%;
+
+  margin: 3rem auto;
+  text-align: center;
+  width: 60%;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  color: rgb(97, 94, 95);
+}
+
+thead {
+  background-color: rgb(56, 74, 51);
+  color: #fff;
+  text-align: center;
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+td {
+  border: 1px solid rgba(72, 98, 85, 0.1);
+  text-align: center;
+  padding: 8px;
+}
+tr td {
+  font-weight: bold;
+}
+tr:nth-child(even) {
+  border: 1px solid rgba(72, 98, 85, 0.1);
+  /* background-color: #dddddd; */
+  background-color: rgba(72, 98, 85, 0.1);
+}
+/* @media screen and (max-width: 1920px) {
+  
+  .commission-container .bg-text {
+    top: 43%;
+  }
+} */
+@media screen and (max-width: 1024px) {
+  .commission-container .bg-image {
+    height: 250px;
+  }
+  /* .commission-container .bg-text {
+    top: 45%;
+  } */
+}
+@media screen and (max-width: 920px) {
+  .commission-container::webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge add Firefox */
+  .commission-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  /* .commission-container .bg-image {
+    height: 200px;
+  } */
+
+  .commission-container .bg-text {
+    top: 40%;
+    left: 50%;
+  }
+  .commission-container .hero-image-container h1 {
+    font-size: 1.5rem;
+  }
+  .commission-container .hero-image-container p {
+    font-size: 1rem;
+  }
+  .commission-container .testimonials .testimonial-row {
+    display: block;
+    padding: 15px;
+  }
+
+  .commission-container .testimonials .column-left img {
+    width: 55%;
+    height: auto;
+  }
+  .commission-container .testimonial-row .column-right p {
+    position: relative;
+    margin: -3rem 0 2rem 1rem;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+}
+@media screen and (max-width: 768px) {
+  .commission-container .bg-image {
+    width: 100%;
+  }
+  .commission-container .bg-text {
+    /* top: 25%; */
+    /* width: 43%; */
+    padding: 16px;
+  }
+  .commission-container .commission-note {
+    width: 85%;
+  }
+
+  .commission-container .commission-images-row {
+    width: 95%;
+  }
+  .commission-container .commission-images-row img {
+    max-height: 200px;
+  }
+  .commission-container .hero-image-container h1 {
+    font-size: 1.4rem;
+  }
+  /* .commission-container .hero-image-container p {
+    font-size: 1rem;
+  } */
+  .commission-images-row img {
+    max-height: 170px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .commission-container .bg-text {
+    width: 100%;
+  }
+
+  .commission-container .hero-image-container p {
+    font-size: 1rem;
+  }
+  table {
+    width: 80%;
+  }
+  .commission-container .testimonials .testimonial-row {
+    width: 93%;
+  }
+  .commission-container .testimonial-row .column-right p {
+    font-style: italic;
+    margin: -3rem 0 2rem 1rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .commission-container .testimonial-row .column-right p {
+    font-style: italic;
+    margin: -3rem 0 2rem 1rem;
+  }
+}

@@ -1,25 +1,62 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { lazy, Suspense, Fragment } from 'react';
 import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+const Home = lazy(() => import('./Pages/Home/home'));
+const Artist = lazy(() => import('./Pages/Artist/artist'));
 
-function App() {
+const Commissions = lazy(() => import('./Pages/Commissions/commissions'));
+
+const FrequentlyAskedQuestions = lazy(() =>
+  import('./Pages/FrequentlyAskedQuestions/frequently-asked-questions'),
+);
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <Fragment>
+      <Suspense
+        fallback={
+          <div className="container-loader">
+            <div className="flex">
+              <div className="loader"></div>
+            </div>
+            <div className="load-text">Loading...</div>
+          </div>
+        }>
+        <Router>
+          <Navbar />
 
+          {/* new  */}
+          <Routes>
+            <Route path="/" element={<Home />} />
+
+            <Route path="/artist" element={<Artist />} />
+
+            <Route path="/commissions" element={<Commissions />} />
+
+            <Route path="/faquestions" element={<FrequentlyAskedQuestions />} />
+            {/* <Route path='/contact' component={Contact} />
+
+            <Route path='/nature' component={Nature} />
+
+            <Route path='/mastercopies' component={Mastercopies} />
+
+            <Route path='/portraits' component={Portraits} />
+
+            <Route path='/petportraits' component={Petportraits} />
+
+            <Route path='/florals' component={Florals} />
+
+            <Route path='/birdanimal' component={BirdAnimal} />
+
+            <Route path='/sold' component={Sold} />
+
+            <Route path='/faquestions' component={FrequentlyAskedQuestions} />
+ */}
+          </Routes>
+        </Router>
+      </Suspense>
+    </Fragment>
+  );
+};
 export default App;

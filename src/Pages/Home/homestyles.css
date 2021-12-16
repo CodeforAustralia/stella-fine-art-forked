@@ -1,0 +1,49 @@
+.landing_Container {
+  color: rgb(99, 96, 96);
+  text-align: left;
+  font-size: 20px;
+  margin-top: 1.5rem;
+}
+.landing_Image {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.landing_Image p {
+  text-align: left;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: rgb(116, 108, 108);
+}
+.landing_Image img {
+  max-width: 100%;
+}
+.quotes-container {
+  position: relative;
+  justify-items: center;
+}
+.quotePeace {
+  text-align: center;
+  margin-top: 4rem;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem;
+}
+.quotePeace p {
+  color: rgb(97, 94, 94);
+  margin-top: 2rem;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.footertext-home {
+  text-align: center;
+}
+@media screen and (max-width: 480px) {
+  .footertext-home {
+    font-size: 12px;
+  }
+}
+/* Nature quote */

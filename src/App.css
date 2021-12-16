@@ -1,38 +1,94 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nobel Book', 'san-serif';
+}
+
+/* Nature quote */
+.quotes {
   text-align: center;
+  margin-top: 4rem;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.quotes-container .quotes p {
+  color: rgb(97, 94, 94);
+  margin-top: 2rem;
+  font-size: 18px;
+  font-style: italic;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3,
+h2 {
+  color: rgb(99, 96, 96);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Lazy loader */
+.container-loader {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
-.App-link {
-  color: #61dafb;
+.flex {
+  min-height: 60pt;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes loading {
+  0% {
+    width: 50pt;
+    height: 50pt;
+    margin-top: 0;
   }
-  to {
-    transform: rotate(360deg);
+  25% {
+    height: 4pt;
+    margin-top: 23pt;
+  }
+  50% {
+    width: 4pt;
+  }
+  75% {
+    width: 50pt;
+  }
+  100% {
+    width: 50pt;
+    height: 50pt;
+    margin-top: 0;
+  }
+}
+
+.loader {
+  width: 50pt;
+  height: 50pt;
+  border-radius: 100%;
+  border: #6767fa 4pt solid;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  animation: loading 1s infinite;
+}
+
+.load-text {
+  padding-top: 15px;
+  text-align: center;
+  /* font: 14pt 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+  color: lighten(#6767fa, 75%);
+}
+
+@media screen and (max-width: 768px) {
+  .quotePeace,
+  .quote {
+    width: 80%;
+    /* font-size: 16px; */
   }
 }

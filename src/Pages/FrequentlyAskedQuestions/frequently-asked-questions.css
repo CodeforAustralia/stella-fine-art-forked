@@ -1,0 +1,120 @@
+.question-main-container .bg-image {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 10%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url('../../Assets/Images/globalimages/greatoceanroad.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 190px;
+}
+.question-main-container .bg-text {
+  text-align: center;
+  position: absolute;
+  line-height: 2;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.question-main-container .bg-text p {
+  font-weight: 400;
+  font-size: 32px;
+}
+.question-container .whole-list-questions {
+  margin-top: 4rem;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  border: 5px double black;
+  padding: 20px 20px 20px 20px;
+  color: rgba(97, 94, 94, 0.99);
+}
+.question-container .whole-list-questions h2 {
+  color: rgb(97, 94, 94);
+  margin-top: 1rem;
+}
+.question-container .each-question {
+  margin-top: 3rem;
+}
+.question-container .each-answer {
+  margin-top: 7px;
+}
+
+/* media screen */
+@media screen and (max-width: 1224px) {
+  /* .question-main-container .bg-image {
+    height: 250px;
+  } */
+  .question-main-container .bg-text {
+    top: 40%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* .question-main-container .bg-image {
+    height: 250px;
+  } */
+  .question-main-container .bg-text {
+    top: 40%;
+  }
+  .question-main-container .bg-text p {
+    font-size: 31px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .question-main-container .bg-text p {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .question-main-container .bg-image {
+    width: 100%;
+  }
+  .question-main-container .bg-text {
+    top: 29%;
+  }
+  .question-main-container .bg-text p {
+    font-size: 27px;
+  }
+  .question-container .whole-list-questions {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  /* .question-main-container .bg-text {
+    top: 29%;
+  } */
+
+  .question-main-container .bg-text p {
+    font-size: 22px;
+  }
+  .question-container .whole-list-questions h1 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .question-main-container .bg-image {
+    height: 190px;
+  }
+  .question-main-container .bg-text {
+    top: 36%;
+  }
+  .question-main-container .bg-text p {
+    font-size: 19px;
+  }
+  .question-container .whole-list-questions {
+    border: none;
+  }
+}
+/* @media screen and (max-width: 400px) {
+  .question-main-container .bg-text {
+    top: 36%;
+  }
+} */

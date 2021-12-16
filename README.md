@@ -68,3 +68,33 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# <!-- PROJECT NOTE -->
+
+Code formatter setup :
+
+`https://medium.com/@frontend-newbie/integrating-prettier-with-eslint-for-your-create-react-app-in-vscode-153ebe89c1a2`
+
+`https://prettier.io/docs/en/install.html`
+
+First, install Prettier locally:
+
+> `npm install --save-dev --save-exact prettier`
+
+.prettierrc.json
+{
+"trailingComma": "all",
+"tabWidth": 2,
+"singleQuote": true,
+"jsxBracketSameLine": true
+}
+
+- Turns off all rules that are unnecessary or might conflict with [Prettier].
+
+> `npm i eslint-config-prettier`
+
+## Library dependency
+
+> `npm i react-router-dom`
+
+<!-- > npm install dotenv -->
