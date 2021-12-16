@@ -1,7 +1,7 @@
 import React from 'react';
 import { CommissionSamples } from '../../Assets/Images/Images';
 import { Testimonial } from '../../Helpers/Testimonial/testimonial';
-import Footer from '../../Components/Footer/Footer';
+import Footer from '../../Components/Footer/footer';
 import './commission.css';
 
 const Commissions = () => {

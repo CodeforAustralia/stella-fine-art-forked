@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+  margin-left: 0;
+  margin-right: 0;
+  /* margin-top: 0; */
+  outline: 0;
+}
+.natureContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Position the image container (needed to position the left and right arrows) */
+.containernature {
+  position: relative;
+  width: 95%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  text-align: center;
+  background-color: rgb(242, 244, 241);
+  height: 600px;
+  margin-top: 2rem;
+}
+.mySlides:before {
+  content: '';
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.mySlides img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
+  /* all side shadow */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.contactnote {
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  right: 0;
+  left: 10%;
+  top: 20%;
+  width: 70%;
+  font-size: 1rem;
+  line-height: 17px;
+  margin-top: 1rem;
+  text-align: left;
+}
+p > a {
+  color: blue;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 35%;
+  width: auto;
+  color: blue;
+  font-weight: bold;
+  font-size: 25px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+.prev {
+  left: 0;
+}
+
+button {
+  border: none;
+  height: 4rem;
+  background-color: Transparent;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Container for image text */
+.imagesize {
+  font-size: 15px;
+}
+#caption {
+  margin-top: 5px;
+  width: 45%;
+  text-align: center;
+  color: black;
+  font-size: 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* .caption-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+} */
+
+/* thumbnail */
+.row {
+  max-height: 150px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 2rem;
+}
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  margin-right: 5px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.column:last-child {
+  margin-right: 0px;
+}
+.column img {
+  max-width: 100%;
+  max-height: 9rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 1;
+}
+
+.current,
+.demo:hover {
+  opacity: 0.6;
+}
+
+.footerdescription {
+  margin-top: 5rem;
+}
+.copyright {
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5rem;
+}
+/* Media screen */
+@media screen and (max-width: 768px) {
+  .containernature {
+    /* width: 95%; */
+    width: 100%;
+  }
+  /* #caption {
+    display: none;
+  } */
+  .mySlides {
+    height: 500px;
+  }
+  .imagesize {
+    font-size: 12px;
+  }
+  #caption {
+    width: 55%;
+    font-size: 1.1rem;
+  }
+
+  .column img {
+    max-height: 9rem;
+  }
+  .copyright {
+    width: 90%;
+  }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .mySlides {
+    height: 400px;
+  }
+  .column img {
+    max-height: 8rem;
+  }
+  #caption {
+    font-size: 0.9rem;
+  }
+  .contactnote {
+    font-size: 13px;
+    line-height: 13px;
+  }
+  .next {
+    left: 1;
+  }
+  .prev {
+    right: 1;
+  }
+}

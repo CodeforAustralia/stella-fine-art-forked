@@ -12,7 +12,7 @@ export const DropDownItems = [
   },
   {
     title: 'WILD-LIFE',
-    path: '/birdanimal',
+    path: '/wildlife',
     cName: 'dropdown-link',
   },
 
@@ -36,4 +36,4 @@ export const DropDownItems = [
     path: '/sold',
     cName: 'dropdown-link',
   },
-]
+];

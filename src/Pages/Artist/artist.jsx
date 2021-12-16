@@ -1,6 +1,6 @@
 import React from 'react';
 import stella from '../../Assets/Images/globalimages/StellaArtist.jpg';
-import Footer from '../../Components/Footer/Footer';
+import Footer from '../../Components/Footer/footer';
 import './artist.css';
 
 const Artist = () => {

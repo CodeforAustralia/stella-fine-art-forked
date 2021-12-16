@@ -1,8 +1,7 @@
 import React from 'react';
-// import { SocialMedia } from './social-media'
 import './footer.css';
 
-export function SocialMedia() {
+const Footer = () => {
   return (
     <div className="social-media">
       <div className="bluethum-badge">
@@ -60,7 +59,6 @@ export function SocialMedia() {
           </div>
           <div className="text">Linkedin</div>
         </a>
-        {/* </div> */}
       </div>
 
       <div className="footertext">
@@ -72,4 +70,6 @@ export function SocialMedia() {
       </div>
     </div>
   );
-}
+};
+
+export default Footer;

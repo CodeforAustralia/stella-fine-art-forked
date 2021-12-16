@@ -6,9 +6,10 @@
   text-align: center;
   color: #fff;
   overflow-x: hidden;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(106, 99, 99, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
     url('../../Assets/Images/globalimages/leaves.jpeg');
-  /* url('../../Assets/Images/globalimages/leaves.jpeg'); */
+  /* background-image: url('../../Assets/Images/globalimages/leaves.jpeg') !important; */
+
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -180,10 +181,3 @@
     width: 95%;
   }
 }
-/* @media screen and (max-width: 680px) {
-  .icons {
-    margin-top: 4rem;
-    display: inline-flex;
-    margin-bottom: 3rem;
-  }
-} */

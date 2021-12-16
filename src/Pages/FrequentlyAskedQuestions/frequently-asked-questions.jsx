@@ -1,4 +1,4 @@
-import Footer from '../../Components/Footer/Footer';
+import Footer from '../../Components/Footer/footer';
 import './frequently-asked-questions.css';
 
 const FrequentlyAskedQuestions = () => {
