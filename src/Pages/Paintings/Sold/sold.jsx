@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { SoldImages } from '../../../Assets/Images/Images';
-import SlideControler from './../corousel/SlideControler';
+import SlideControler from '../../../Components/corousel/SlideControler';
 import Footer from '../../../Components/Footer/footer';
 
 const Sold = () => {

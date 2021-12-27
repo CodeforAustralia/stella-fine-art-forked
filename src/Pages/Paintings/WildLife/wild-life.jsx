@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
-import SlideControler from './../corousel/SlideControler';
+import SlideControler from '../../../Components/corousel/SlideControler';
 import { QuotesWildLife } from '../../../Helpers/Quotes/quotes';
-import { WildLifeImages } from '../../../Assets//Images/Images';
+import { WildLifeImages } from '../../../Assets/Images/Images';
 import Footer from '../../../Components/Footer/footer';
 
 const BirdAnimal = () => {

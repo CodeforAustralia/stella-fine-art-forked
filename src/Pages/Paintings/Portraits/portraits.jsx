@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import SlideControler from './../corousel/SlideControler';
+import SlideControler from '../../../Components/corousel/SlideControler';
 import { PortraitImages } from '../../../Assets/Images/Images';
 import Footer from '../../../Components/Footer/footer';
 
