@@ -93,8 +93,8 @@ First, install Prettier locally:
 
 > `npm i eslint-config-prettier`
 
-## Library dependency
+## dependency
 
 > `npm i react-router-dom`
 
-<!-- > npm install dotenv -->
+> `npm install react-helmet`
