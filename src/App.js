@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import React, { lazy, Suspense } from 'react';
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
@@ -35,6 +36,13 @@ const Sold = lazy(() => import('./Pages/Paintings/Sold/sold'));
 const App = () => {
   return (
     <div>
+      <Helmet>
+        <title>Stella Kypriotis Fine Art</title>
+        <meta
+          name="Fine Art"
+          content="Fine art painting can be a portrait or ourdoor painting (plein air) and commision painting anything of your interest."
+        />
+      </Helmet>
       <Suspense
         fallback={
           <div className="container-loader">
