@@ -4,7 +4,7 @@ export const BannerImage = [
     name: 'Peaceful Journey',
     image: require('./globalimages/peacefuljourney.jpg').default,
   },
-]
+];
 // Nature
 export const NatureImages = [
   {
@@ -57,7 +57,7 @@ export const NatureImages = [
     size: '50cm(W) x 40cm(H)',
     image: require('./nature/besidestillwaters.jpg').default,
   },
-]
+];
 // Floral
 export const FloralImages = [
   {
@@ -86,7 +86,13 @@ export const FloralImages = [
     size: '50cm(W) x 50cm(H)',
     image: require('./floral/blossomedtulip.jpg').default,
   },
-]
+  {
+    id: 5,
+    name: 'Love Blossoms',
+    size: '90cm(W) x 76cm(H)',
+    image: require('./floral/loveblossoms.jpg').default,
+  },
+];
 
 // wildlife
 export const WildLifeImages = [
@@ -128,7 +134,7 @@ export const WildLifeImages = [
     size: '31cm(W) x 41cm(H)',
     image: require('./wildlife/majesty.jpg').default,
   },
-]
+];
 
 // mastercopies
 export const MastercopiesImages = [
@@ -165,7 +171,7 @@ export const MastercopiesImages = [
     size: '',
     image: require('./mastercopies/rembrandtstudy.jpg').default,
   },
-]
+];
 
 // potraits
 export const PortraitImages = [
@@ -193,7 +199,7 @@ export const PortraitImages = [
     size: '',
     image: require('./portrait/christopher.jpg').default,
   },
-]
+];
 
 // pet portraits paintings
 export const PetportraitsImages = [
@@ -215,7 +221,7 @@ export const PetportraitsImages = [
     size: '',
     image: require('./petportraits/lorikeet.jpg').default,
   },
-]
+];
 // sold
 export const SoldImages = [
   {
@@ -272,7 +278,7 @@ export const SoldImages = [
     size: ' ',
     image: require('./sold/ontheroadtominnamurrafalls.jpg').default,
   },
-]
+];
 
 // commission images sample display
 
@@ -309,7 +315,7 @@ export const CommissionSamples = [
     image: require('./petportraits/charlie.jpg').default,
     clName: 'cactive',
   },
-]
+];
 
 // more paintings
 export const MorePaintingImages = [
@@ -325,4 +331,4 @@ export const MorePaintingImages = [
     size: 'none',
     image: require('./morepaintings/threesisters.jpg').default,
   },
-]
+];
