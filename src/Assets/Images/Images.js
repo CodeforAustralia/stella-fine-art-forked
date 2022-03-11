@@ -75,22 +75,28 @@ export const FloralImages = [
 
   {
     id: 3,
+    name: 'Love Blossoms',
+    size: '90cm(W) x 76cm(H)',
+    image: require('./floral/loveblossoms.jpg').default,
+  },
+  {
+    id: 4,
+    name: 'Minor bird in Waratah Garden',
+    size: '20cm(W) x 25cm(H)',
+    image: require('./floral/minorbirdinwaratahgarden.jpg').default,
+  },
+  {
+    id: 5,
     name: 'Skoulariki Fuschia Plant',
     size: '32cm(W) x 27cm(H)',
     image: require('./floral/skoularikifuschiaplant.jpg').default,
   },
 
   {
-    id: 4,
+    id: 6,
     name: 'Blossomed Tulip',
     size: '50cm(W) x 50cm(H)',
     image: require('./floral/blossomedtulip.jpg').default,
-  },
-  {
-    id: 5,
-    name: 'Love Blossoms',
-    size: '90cm(W) x 76cm(H)',
-    image: require('./floral/loveblossoms.jpg').default,
   },
 ];
 
@@ -133,6 +139,12 @@ export const WildLifeImages = [
     name: 'Majesty',
     size: '31cm(W) x 41cm(H)',
     image: require('./wildlife/majesty.jpg').default,
+  },
+  {
+    id: 7,
+    name: 'Baby Blue Sea Turtle',
+    size: '30cm(W) x 30cm(H)',
+    image: require('./wildlife/babyblueseaturtle.jpg').default,
   },
 ];
 

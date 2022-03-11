@@ -9,7 +9,7 @@ const Artist = lazy(() => import('./Pages/Artist/artist'));
 const Commissions = lazy(() => import('./Pages/Commissions/commissions'));
 
 const Contact = lazy(() => import('./Pages/Contact/contact'));
-
+const Class = lazy(() => import('./Pages/Classes/Classes'));
 const FrequentlyAskedQuestions = lazy(() =>
   import('./Pages/FrequentlyAskedQuestions/frequently-asked-questions'),
 );
@@ -64,6 +64,7 @@ const App = () => {
             <Route path="/commissions" element={<Commissions />} />
 
             <Route path="/contact" element={<Contact />} />
+            <Route path="/classes" element={<Class />} />
 
             <Route path="/faquestions" element={<FrequentlyAskedQuestions />} />
 
