@@ -37,3 +37,24 @@ export const DropDownItems = [
     cName: 'dropdown-link',
   },
 ];
+
+// dropdown for contact service
+
+const ServiceOption = [
+  {
+    label: 'Commissions',
+  },
+
+  {
+    label: 'Portrait',
+  },
+  {
+    label: 'Classes',
+  },
+
+  {
+    label: 'General',
+  },
+];
+
+export default ServiceOption;

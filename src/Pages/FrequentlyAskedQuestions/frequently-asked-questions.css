@@ -1,5 +1,6 @@
 .question-main-container .bg-image {
-  margin-top: 2rem;
+  position: relative;
+  margin-top: 2.5rem;
   margin-bottom: 2rem;
   padding: 10%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),

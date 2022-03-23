@@ -1,8 +1,9 @@
+// HOME PAGE
 export const BannerImage = [
   {
     id: 1,
     name: 'Peaceful Journey',
-    image: require('./globalimages/peacefuljourney.jpg').default,
+    image: require('./globalimages/peacefulJourney.jpg').default,
   },
 ];
 // Nature
@@ -239,55 +240,55 @@ export const SoldImages = [
   {
     id: 1,
     name: "Nature's Beauty",
-    size: '',
+    size: '40cm(W) x 50cm(H)',
     image: require('./sold/naturebeauty.jpg').default,
   },
   {
     id: 2,
     name: 'Deer in Wilderness',
-    size: '',
+    size: '25cm(W) x 30cm(H)',
     image: require('./sold/deerinwilderness.jpg').default,
   },
   {
     id: 3,
     name: 'Hang-in-there Koala Bear',
-    size: '   ',
+    size: '  20cm(W) x 25cm(H) ',
     image: require('./sold/hangintherekoalabear.jpg').default,
   },
   {
     id: 4,
     name: 'Aussie Lorikeet',
-    size: ' ',
+    size: '25cm(W) x 30cm(H) ',
     image: require('./sold/aussielorikeet.jpg').default,
   },
   {
     id: 5,
     name: 'Calming Florals(Commission Piece)',
-    size: ' ',
+    size: '76cm(W) x 76cm(H)  ',
     image: require('./sold/calmingflorals.jpg').default,
   },
   {
     id: 6,
     name: 'Budgies in Love',
-    size: ' ',
+    size: '30cm(W) x 30cm(H)  ',
     image: require('./sold/budgiesinlove.jpg').default,
   },
   {
     id: 7,
     name: 'Deep Blue Sea Turtle',
-    size: ' ',
+    size: '45cm(W) x 60cm(H)  ',
     image: require('./sold/deepblueseaturtle.jpg').default,
   },
   {
     id: 8,
     name: 'Peaceful Journey(Commission Piece)',
-    size: ' ',
+    size: '90cm(W) x 120cm(H)  ',
     image: require('./sold/peacefuljourney.jpg').default,
   },
   {
     id: 9,
     name: 'On The Road to Minnamurra Falls',
-    size: ' ',
+    size: '11cm(W) x 18cm(H)  ',
     image: require('./sold/ontheroadtominnamurrafalls.jpg').default,
   },
 ];
@@ -316,7 +317,7 @@ export const CommissionSamples = [
     name: 'Peaceful Journey 2021',
     size: '120cm x 90cm x 4cm depth',
     info: 'Oil on stretched canvas',
-    image: require('./globalimages/peacefuljourney.jpg').default,
+    image: require('./sold/peacefuljourney.jpg').default,
     clName: 'cactive',
   },
   {

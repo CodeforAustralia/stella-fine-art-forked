@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import React, { lazy, Suspense } from 'react';
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/footer';
 const Home = lazy(() => import('./Pages/Home/home'));
 const Artist = lazy(() => import('./Pages/Artist/artist'));
 
@@ -10,6 +11,7 @@ const Commissions = lazy(() => import('./Pages/Commissions/commissions'));
 
 const Contact = lazy(() => import('./Pages/Contact/contact'));
 const Class = lazy(() => import('./Pages/Classes/Classes'));
+const Testimonial = lazy(() => import('./Pages/Testimonial/testimonial'));
 const FrequentlyAskedQuestions = lazy(() =>
   import('./Pages/FrequentlyAskedQuestions/frequently-asked-questions'),
 );
@@ -65,7 +67,7 @@ const App = () => {
 
             <Route path="/contact" element={<Contact />} />
             <Route path="/classes" element={<Class />} />
-
+            <Route path="/testimonial" element={<Testimonial />} />
             <Route path="/faquestions" element={<FrequentlyAskedQuestions />} />
 
             <Route path="/nature" element={<Nature />} />
@@ -82,6 +84,7 @@ const App = () => {
 
             <Route path="/sold" element={<Sold />} />
           </Routes>
+          <Footer />
         </Router>
       </Suspense>
     </div>

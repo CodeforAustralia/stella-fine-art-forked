@@ -1,8 +1,7 @@
 import React, { Fragment } from 'react';
 import SlideControler from '../../../Components/corousel/SlideControler';
-import { QuotesWildLife } from '../../../Helpers/Quotes/quotes';
+import { QuotesWildLife } from '../../../Helpers/AllQuotes/quotes';
 import { WildLifeImages } from '../../../Assets/Images/Images';
-import Footer from '../../../Components/Footer/footer';
 
 const BirdAnimal = () => {
   const PrintQuotes = QuotesWildLife();
@@ -10,8 +9,6 @@ const BirdAnimal = () => {
   return (
     <Fragment>
       <SlideControler slideImages={WildLifeImages} PrintQuotes={PrintQuotes} />
-
-      <Footer />
     </Fragment>
   );
 };

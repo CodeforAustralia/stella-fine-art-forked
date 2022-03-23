@@ -1,8 +1,7 @@
 import React, { Fragment } from 'react';
-import { QuotesFlorals } from '../../../Helpers/Quotes/quotes';
+import { QuotesFlorals } from '../../../Helpers/AllQuotes/quotes';
 import { FloralImages } from '../../../Assets/Images/Images';
 import SlideControler from '../../../Components/corousel/SlideControler';
-import Footer from '../../../Components/Footer/footer';
 
 const Florals = () => {
   const PrintQuotes = QuotesFlorals();
@@ -10,8 +9,6 @@ const Florals = () => {
   return (
     <Fragment>
       <SlideControler slideImages={FloralImages} PrintQuotes={PrintQuotes} />
-
-      <Footer />
     </Fragment>
   );
 };

@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
-import Footer from '../../../Components/Footer/footer';
-import { QuotesNature } from '../../../Helpers/Quotes/quotes';
+import { QuotesNature } from '../../../Helpers/AllQuotes/quotes';
 import { NatureImages } from '../../../Assets/Images/Images';
 import SlideControler from '../../../Components/corousel/SlideControler';
 
@@ -10,8 +9,6 @@ const Nature = () => {
   return (
     <Fragment>
       <SlideControler slideImages={NatureImages} PrintQuotes={PrintQuotes} />
-
-      <Footer />
     </Fragment>
   );
 };

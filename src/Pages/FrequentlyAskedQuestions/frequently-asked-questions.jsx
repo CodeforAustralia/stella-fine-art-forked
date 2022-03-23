@@ -1,4 +1,3 @@
-import Footer from '../../Components/Footer/footer';
 import './frequently-asked-questions.css';
 
 const FrequentlyAskedQuestions = () => {
@@ -91,7 +90,6 @@ const FrequentlyAskedQuestions = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

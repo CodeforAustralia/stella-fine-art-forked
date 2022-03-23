@@ -11,7 +11,7 @@
   width: 80%;
   margin-right: auto;
   margin-left: auto;
-  height: 190px;
+  height: 250px;
 }
 .classes-main-container .bg-text {
   text-align: center;
@@ -27,21 +27,20 @@
   font-weight: 400;
   font-size: 32px;
 }
-
 #class_details {
   text-align: center;
   margin-top: 4rem;
-  padding: 2rem 2rem 2rem 2rem;
-  border: 8px solid #486255;
-  width: 36rem;
   margin-left: auto;
   margin-right: auto;
   display: block;
+  color: rgb(97, 94, 94);
+  font-weight: 500;
+  width: 80%;
 }
 #class_details p {
   margin-top: 1rem;
 }
-#class_details h2 {
+#class_details #title {
   margin-bottom: 2rem;
 }
 /* media screen */
@@ -80,10 +79,140 @@
 }
 
 @media screen and (max-width: 680px) {
-  /* .classes-main-container .bg-text {
-      top: 29%;
-    } */
+  .classes-main-container .bg-text p {
+    font-size: 22px;
+  }
+  .classes-container .whole-list-classess h1 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .classes-main-container .bg-image {
+    height: 190px;
+  }
+  .classes-main-container .bg-text {
+    top: 36%;
+  }
+  .classes-main-container .bg-text p {
+    font-size: 19px;
+  }
+  .classes-container .whole-list-classess {
+    border: none;
+  }
+}
+@media screen and (max-width: 1224px) {
+  .classes-main-container .bg-text {
+    top: 40%;
+  }
+}
 
+@media screen and (max-width: 1024px) {
+  .classes-main-container .bg-text {
+    top: 40%;
+  }
+  .classes-main-container .bg-text p {
+    font-size: 31px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .classes-main-container .bg-text p {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .classes-main-container .bg-image {
+    width: 100%;
+  }
+  .classes-main-container .bg-text {
+    top: 29%;
+  }
+  .classes-main-container .bg-text p {
+    font-size: 27px;
+  }
+  .classes-container .whole-list-classess {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .classes-main-container .bg-text p {
+    font-size: 22px;
+  }
+  .classes-container .whole-list-classess h1 {
+    font-size: 24px;
+  }
+  /* #class_details {
+    padding: 1rem 1rem 1rem 1rem;
+    width: 26rem;
+  }
+  #class_details h2 {
+    font-size: 1.5rem;
+  } */
+}
+@media screen and (max-width: 480px) {
+  .classes-main-container .bg-image {
+    height: 190px;
+  }
+  .classes-main-container .bg-text {
+    top: 36%;
+  }
+  .classes-main-container .bg-text p {
+    font-size: 19px;
+  }
+  .classes-container .whole-list-classess {
+    border: none;
+  }
+}
+
+/* #class_details {
+  text-align: center;
+  margin-top: 4rem;
+  padding: 2rem 2rem 2rem 2rem;
+  border: 8px solid #486255;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#class_details p {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 1224px) {
+  .classes-main-container .bg-text {
+    top: 40%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .classes-main-container .bg-text {
+    top: 40%;
+  }
+  .classes-main-container .bg-text p {
+    font-size: 31px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .classes-main-container .bg-text p {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .classes-main-container .bg-image {
+    width: 100%;
+  }
+  .classes-main-container .bg-text {
+    top: 29%;
+  }
+  .classes-main-container .bg-text p {
+    font-size: 27px;
+  }
+  .classes-container .whole-list-classess {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 680px) {
   .classes-main-container .bg-text p {
     font-size: 22px;
   }
@@ -91,7 +220,7 @@
     font-size: 24px;
   }
   #class_details {
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 3rem 3rem;
     width: 26rem;
   }
   #class_details h2 {
@@ -115,4 +244,4 @@
     padding: 1rem 1rem 1rem 1rem;
     width: 24rem;
   }
-}
+} */

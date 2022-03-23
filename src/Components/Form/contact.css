@@ -1,0 +1,333 @@
+#contact-form-title {
+  margin-bottom: 3rem;
+}
+.contact-main {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 16px;
+}
+
+.contact-main .bg-image {
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 10%;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url('../../Assets/Images/globalimages/threesisters.jpeg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 190px;
+}
+.contact-main .bg-text {
+  text-align: center;
+  position: absolute;
+  /* line-height: 2; */
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.contact-main .bg-text p {
+  font-weight: 400;
+  font-size: 32px;
+}
+.contact-main p {
+  font-style: 30px;
+  /* float: left; */
+}
+
+.contact-main .contact-note {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgba(97, 94, 94, 0.99);
+}
+
+.form-container {
+  height: 100%;
+  margin: 50px auto;
+  box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
+  box-sizing: border-box;
+  padding: 50px;
+  background-color: #e5edeb;
+  text-align: center;
+  border: 7px double #000;
+}
+
+.form-container p {
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 40px;
+  margin-bottom: 20px;
+  /* color: #486255; */
+  color: rgba(97, 94, 94, 0.99);
+  font-weight: 400;
+}
+.input,
+.msg .area {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+.login .input {
+  width: 49%;
+  float: left;
+}
+
+.login .input:last-child {
+  margin-left: 2px;
+}
+
+.msg .area {
+  height: 200px;
+}
+.btn {
+  background: #486255;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  line-height: 40px;
+  width: 150px;
+}
+.form-container .btn {
+  width: 250px;
+  height: 50px;
+}
+
+.input:focus,
+.msg .area:focus {
+  border: 2px solid #486255;
+}
+
+::-webkit-input-placeholder {
+  font-family: 'roboto';
+}
+
+#thank-you-container {
+  margin-bottom: 1rem;
+  color: blue;
+  height: 20px;
+}
+#thank-you-container #thank-you {
+  color: blue;
+}
+/* grid */
+.contact-survey-wrapper {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.survey {
+  margin-bottom: 1.5rem;
+  display: grid;
+  justify-items: center;
+}
+
+.survey .title {
+  color: #486255;
+  line-height: 65px;
+  text-align: center;
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+}
+.wrapper .box {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  column-gap: 1.2rem;
+  justify-self: center;
+}
+/* .wrapper .survey-right {
+  margin: 10px;
+} */
+
+.wrapper .box label {
+  display: flex;
+  height: 23px;
+  align-items: center;
+  margin: 10px 0;
+  padding-left: 9px;
+  padding-right: 2px;
+  cursor: default;
+  transition: all 0.3s ease;
+}
+#option-1:checked ~ .option-1,
+#option-2:checked ~ .option-2,
+#option-3:checked ~ .option-3,
+#option-4:checked ~ .option-4,
+#option-5:checked ~ .option-5,
+#option-6:checked ~ .option-6 {
+  background: rgba(72, 98, 85, 0.7);
+  border-radius: 4px;
+}
+
+.wrapper .box label .dot {
+  height: 20px;
+  width: 20px;
+  background: #d9d9d9;
+  border-radius: 50%;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+#option-1:checked ~ .option-1 .dot,
+#option-2:checked ~ .option-2 .dot,
+#option-3:checked ~ .option-3 .dot,
+#option-4:checked ~ .option-4 .dot,
+#option-5:checked ~ .option-5 .dot,
+#option-6:checked ~ .option-6 .dot {
+  background: #fff;
+}
+
+.box label .dot::before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(2);
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+#option-1:checked ~ .option-1 .dot::before,
+#option-2:checked ~ .option-2 .dot::before,
+#option-3:checked ~ .option-3 .dot::before,
+#option-4:checked ~ .option-4 .dot::before,
+#option-5:checked ~ .option-5 .dot::before,
+#option-6:checked ~ .option-6 .dot::before {
+  background: #486255;
+  transform: translate(-50%, -50%) scale(1);
+}
+.wrapper .box label .text {
+  /* color: #333; */
+  color: rgba(97, 94, 94, 0.99);
+  font-weight: 400;
+  padding-left: 10px;
+  transition: color 0.3s ease;
+}
+#option-1:checked ~ .option-1 .text,
+#option-2:checked ~ .option-2 .text,
+#option-3:checked ~ .option-3 .text,
+#option-4:checked ~ .option-4 .text,
+#option-5:checked ~ .option-5 .text,
+#option-6:checked ~ .option-6 .text {
+  color: #fff;
+}
+.wrapper .box input[type='radio'] {
+  display: none;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+  height: 5rem;
+  text-align: center;
+}
+.question-container .form-group button {
+  padding: 6px;
+  background-color: #486255;
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+  border-radius: 3px;
+  width: 7rem;
+  margin-bottom: 1rem;
+}
+
+#thank-you {
+  font-size: 25px;
+  color: blue;
+}
+
+/* media screen */
+
+@media screen and (max-width: 920px) {
+  .contact-main .bg-text p {
+    font-size: 29px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact-main {
+    font-size: 15px;
+  }
+  .contact-main .bg-image {
+    width: 100%;
+  }
+  .contact-main .bg-text {
+    top: 33%;
+  }
+
+  .input,
+  .msg .area {
+    padding: 10px;
+  }
+
+  .contact-main .btn {
+    width: 150px;
+    height: 40px;
+    line-height: 15px;
+    border-radius: 5px;
+  }
+  .login .input {
+    width: 100%;
+  }
+  .contact-main .contact-survey-wrapper {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .contact-main .bg-text p {
+    font-size: 23px;
+  }
+
+  .survey .title {
+    font-size: 16px;
+  }
+
+  .wrapper .box label {
+    height: 18px;
+    margin: 6px 0;
+    padding-left: 5px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contact-main .bg-text {
+    top: 35%;
+  }
+
+  .contact-main .bg-text p {
+    font-size: 17px;
+  }
+  .form-container {
+    box-shadow: none;
+    background-color: #fff;
+    border: none;
+  }
+
+  .wrapper .box {
+    padding-top: 10px;
+    display: block;
+  }
+
+  .wrapper .box label {
+    height: 26px;
+  }
+}

@@ -4,7 +4,7 @@ import chantelle from '../../Assets/Images/testimonial/chantelle.jpg';
 import melanie from '../../Assets/Images/testimonial/melanie.jpg';
 import Stellamum from '../../Assets/Images/testimonial/stellamum.jpg';
 
-export function Testimonial() {
+export const Testimonial = () => {
   return (
     <div className="testimonials">
       <h2 id="testimonial-heading">Testimonials</h2>
@@ -112,4 +112,4 @@ export function Testimonial() {
       </div>
     </div>
   );
-}
+};

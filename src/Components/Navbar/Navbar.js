@@ -43,6 +43,7 @@ function Navbar() {
     <Fragment>
       <div className="appheader">
         <p>Stella Kypriotis Fine Art </p>
+        <p id="captivated-by-nature">Captivated by Nature</p>
       </div>
       {/* <nav className={`navbar ${show && 'nav_black'}`}> */}
       <nav className="navbar">
@@ -71,7 +72,6 @@ function Navbar() {
                 handleSelect={handleSelect}
               />
             )}
-            {/* {dropdown && <Dropdown closeMobileMenu={closeMobileMenu} />} */}
           </li>
           <li className="nav-item">
             <Link to="/artist" className="nav-links" onClick={closeMobileMenu}>
@@ -80,28 +80,39 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link
+              to="/testimonial"
+              className="nav-links"
+              onClick={closeMobileMenu}>
+              TESTIMONIALS
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link
               to="/commissions"
               className="nav-links"
               onClick={closeMobileMenu}>
               COMMISSIONS
             </Link>
           </li>
-          <li className="nav-item">
-            <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
-              CONTACT
-            </Link>
-          </li>
+
           <li className="nav-item">
             <Link to="/classes" className="nav-links" onClick={closeMobileMenu}>
               CLASSES
             </Link>
           </li>
+
           <li className="nav-item">
             <Link
               to="/faquestions"
               className="nav-links"
               onClick={closeMobileMenu}>
               FAQ
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
+              CONTACT
             </Link>
           </li>
         </ul>

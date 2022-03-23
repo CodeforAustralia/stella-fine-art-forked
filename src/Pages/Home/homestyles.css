@@ -5,7 +5,7 @@
   margin-top: 1.5rem;
 }
 .landing_Image {
-  width: 70%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -19,31 +19,117 @@
 .landing_Image img {
   max-width: 100%;
 }
-.quotes-container {
-  position: relative;
-  justify-items: center;
-}
 .quotePeace {
   text-align: center;
-  margin-top: 4rem;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 4rem;
+  /* text-justify: center; */
 }
-.quotePeace p {
-  color: rgb(97, 94, 94);
-  margin-top: 2rem;
-  font-size: 18px;
+#oilOnCanvas {
   font-style: italic;
+  margin-top: 0;
+  text-align: left;
+  font-size: 1.1rem;
+  color: rgb(116, 108, 108);
+  text-align: center;
 }
-
 .footertext-home {
   text-align: center;
 }
+.home-images-row {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  max-height: 600px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* top: 2rem; */
+  /* gap: 7px; */
+  margin-bottom: 3rem;
+}
+
+.home-image-column {
+  margin-right: 6px;
+  /* overflow-y: hidden;
+    overflow-x: scroll; */
+  margin-right: auto;
+  margin-left: auto;
+}
+.home-image-column img {
+  max-width: 100%;
+  max-height: 700px;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: auto;
+  margin-left: auto;
+}
+#home_paintTitle {
+  font-size: calc(7px + 2.5vmin);
+}
+#announcement_home {
+  font-size: calc(7px + 3vmin);
+}
+#ages_home {
+  font-size: calc(7px + 2.8vmin);
+}
+#class_details {
+  width: 80%;
+}
+#class_details1 p {
+  margin-top: 1rem;
+}
+.paintbrush_text {
+  width: 75%;
+  padding: 3rem 2rem;
+  border: 8px solid #486255;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 2rem;
+}
+@media screen and (max-width: 768px) {
+  .landing_Image {
+    width: 100%;
+  }
+}
+/* @media screen and (max-width: 680px) {
+    #class_details1 {
+      width: 90%;
+    }
+  } */
 @media screen and (max-width: 480px) {
   .footertext-home {
     font-size: 12px;
   }
+  .paintbrush_text {
+    width: 85%;
+    padding: 2rem 1rem;
+    /* border: 8px solid #486255; */
+    /* margin-left: auto;
+      margin-right: auto;
+      text-align: center; */
+    margin-top: 2rem;
+  }
+  /* #class_details1 h2 {
+    } */
+  #class_details1 {
+    width: 95%;
+    padding: 0rem 0.5rem;
+  }
+  /* #class_details1 p {
+      margin-top: 1rem;
+      font-size: 1rem;
+    } */
 }
+@media screen and (max-width: 400px) {
+  .paintbrush_text {
+    width: 80%;
+    padding: 3rem 1rem;
+    border: 8px solid #486255;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 2rem;
+  }
+}
+
 /* Nature quote */

@@ -8,10 +8,9 @@
   overflow-x: hidden;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
     url('../../Assets/Images/globalimages/leaves.jpeg');
-  /* background-image: url('../../Assets/Images/globalimages/leaves.jpeg') !important; */
-
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: -1;
 }
 
 .social-media .footertext {
@@ -20,19 +19,85 @@
   font-size: 16px;
   top: 20%;
 }
-
-/* social media disign */
-
-#followMe-text {
+/* blue thum and quick link */
+.social-media h4 {
+  position: absolute;
+  top: 3;
+  left: 18px;
+  margin-top: 1rem;
+  bottom: 4;
+}
+#quickLink_blueThumb {
+  display: flex;
   margin-top: 3rem;
+  font-family: 'Nobel Book', 'san-serif';
+}
+.quickLink_left {
+  /* color: white;
+  padding: 3px 3px;
+  margin-right: 3x;
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  grid-gap: 5px;
+  list-style: none;
+  text-align: center;
+  margin-right: 1rem;*/
+  width: 65%;
+  padding: 3px;
+  margin: 0;
+  list-style: none;
+  /* border: 1px solid silver; */
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  height: 2.5rem;
+}
+
+.quickLink_left {
+  /* width: 50%;
+  display: flex;
+  color: white; */
+
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.quickLink_left p {
+  color: white;
+  font-size: 1em;
+  padding: 6px 6px;
+}
+#bluethum-badge {
+  width: 20%;
+}
+#painting_link {
+  position: relative;
+  top: 1rem;
+  left: 2px;
+  z-index: 1;
+  padding-top: 1rem;
+  font-style: italic;
+}
+#painting_link p {
+  color: white;
+  /* font-size: 1em; */
+}
+/* social media disign */
+#followMe-text {
+  margin-top: 4rem;
   font-size: 20px;
   font-weight: 700;
+  z-index: -1;
 }
 .icons {
   margin-top: 2rem;
   display: inline-flex;
   margin-bottom: 3rem;
   font-weight: 700;
+  /* z-index: -1; */
 }
 .icons a {
   margin: 0 15px;
@@ -156,6 +221,210 @@
   margin: 10px auto 30px auto;
 }
 /* media screen */
+/* @media screen and (max-width: 1324px) {
+  .quickLink_left {
+    width: 10%;
+  }
+  #bluethum-badge {
+    width: 90%;
+  }
+} */
+/* media screen */
+@media screen and (max-width: 768px) {
+  .social-media {
+    margin-top: 3.5rem;
+  }
+  .social-media #footertext {
+    font-size: 16px;
+  }
+  .quickLink_left {
+    width: 10%;
+  }
+  #bluethum-badge {
+    width: 90%;
+  }
+  #painting_link {
+    padding-bottom: 2rem;
+  }
+
+  #followMe-text {
+    margin-top: 11rem;
+  }
+  .icons a .layer span {
+    height: 80%;
+    width: 80%;
+  }
+  .icons a .layer span.fab {
+    line-height: 25px;
+    padding-top: 4px;
+  }
+  .icons a .text {
+    font-size: 16px;
+  }
+  .social-media .footertext p {
+    font-size: 12px;
+  }
+  .social-media .footertext hr {
+    width: 95%;
+  }
+}
+
+/* .social-media {
+  margin-top: 9rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #fff;
+  overflow-x: hidden;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url('../../Assets/Images/globalimages/leaves.jpeg');
+  
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.social-media .footertext {
+  position: relative;
+  color: #fff;
+  font-size: 16px;
+  top: 20%;
+}
+
+
+
+#followMe-text {
+  margin-top: 3rem;
+  font-size: 20px;
+  font-weight: 700;
+}
+.icons {
+  margin-top: 2rem;
+  display: inline-flex;
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+.icons a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  position: relative;
+  font-weight: 700;
+  font-weight: bold;
+}
+.icons a .layer {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s;
+}
+.icons a:hover .layer {
+  transform: rotate(-35deg) skew(20deg);
+}
+.icons a .layer span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90%;
+  width: 90%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  transition: all 0.3s;
+  font-weight: 700;
+}
+.icons a .layer span.fab {
+  font-size: 19px;
+  line-height: 35px;
+  text-align: center;
+  padding-top: 2px;
+}
+.icons a:hover .layer span:nth-child(1) {
+  opacity: 0.2;
+}
+.icons a:hover .layer span:nth-child(2) {
+  opacity: 0.4;
+  transform: translate(5px, -5px);
+}
+.icons a:hover .layer span:nth-child(3) {
+  opacity: 0.6;
+  transform: translate(10px, -10px);
+}
+.icons a:hover .layer span:nth-child(4) {
+  opacity: 0.8;
+  transform: translate(15px, -15px);
+}
+.icons a:hover .layer span:nth-child(5) {
+  opacity: 1;
+  transform: translate(20px, -20px);
+}
+.icons a:nth-child(1) .layer span,
+.icons a:nth-child(1) .text {
+  color: #4267b2;
+  border-color: #4267b2;
+}
+.icons a:nth-child(2) .layer span,
+.icons a:nth-child(2) .text {
+  color: #1da1f2;
+  border-color: #1da1f2;
+}
+.icons a:nth-child(3) .layer span,
+.icons a:nth-child(3) .text {
+  color: #e1306c;
+  border-color: #e1304a;
+}
+.icons a:nth-child(4) .layer span,
+.icons a:nth-child(4) .text {
+  color: #2867b2;
+  border-color: #2867b2;
+}
+.icons a:hover:nth-child(1) .layer span {
+  box-shadow: -1px 1px 3px #4267b2;
+}
+.icons a:hover:nth-child(2) .layer span {
+  box-shadow: -1px 1px 3px #1da1f2;
+}
+.icons a:hover:nth-child(3) .layer span {
+  box-shadow: -1px 1px 3px #e1304a;
+}
+.icons a:hover:nth-child(4) .layer span {
+  box-shadow: -1px 1px 3px #2867b2;
+}
+
+.icons a .text {
+  position: absolute;
+  left: 50%;
+  bottom: -3px;
+  opacity: 0;
+  font-weight: 500;
+  transform: translateX(-50%);
+  transition: bottom 0.3s ease, opacity 0.3s ease;
+}
+.icons a:hover .text {
+  top: 52;
+  opacity: 1;
+}
+
+.bluethum-badge {
+  position: relative;
+  margin-top: 5%;
+}
+
+.social-media .footertext p {
+  position: relative;
+  color: #fff;
+  font-size: 14px;
+  top: 20%;
+  text-transform: uppercase;
+}
+.social-media .footertext hr {
+  display: flex;
+  width: 80%;
+  color: #000;
+  border-color: rgb(17, 78, 54);
+  margin: 10px auto 30px auto;
+}
+
 @media screen and (max-width: 768px) {
   .social-media {
     margin-top: 3.5rem;
@@ -180,4 +449,4 @@
   .social-media .footertext hr {
     width: 95%;
   }
-}
+} */
