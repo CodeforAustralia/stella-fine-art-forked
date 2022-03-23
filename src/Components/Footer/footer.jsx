@@ -148,6 +148,7 @@ const Footer = () => {
           All Right Reserved.
         </p>
         <hr />
+        <p>ABN: 11 549 121 620</p>
       </div>
     </div>
   );
