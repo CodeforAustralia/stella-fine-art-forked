@@ -69,16 +69,14 @@ const Classes = () => {
             <br />
             for 1 term (8 sessions)
           </p>
-          {/* <p>
-      * Please indicate "classes" in the enquiries selection box in the
-      form provided.
-    </p> */}
           <p>
+            REGISTER ON THIS {''}
             <em>
               <Link to="/contact" className="enquire_now">
-                REGISTER YOUR INTEREST NOW
+                LINK
               </Link>{' '}
             </em>{' '}
+            NOW.
           </p>
           <p>* Limited spaces available. *</p>{' '}
         </div>

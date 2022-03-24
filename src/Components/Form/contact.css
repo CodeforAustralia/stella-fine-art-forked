@@ -32,10 +32,10 @@
   transform: translate(-50%, -50%);
   color: white;
 }
-.contact-main .bg-text p {
+/* .contact-main .bg-text p {
   font-weight: 400;
   font-size: 32px;
-}
+} */
 .contact-main p {
   font-style: 30px;
   /* float: left; */
@@ -58,7 +58,9 @@
   text-align: center;
   border: 7px double #000;
 }
-
+#select_service {
+  margin-bottom: 1rem;
+}
 .form-container p {
   text-align: center;
   letter-spacing: 1px;

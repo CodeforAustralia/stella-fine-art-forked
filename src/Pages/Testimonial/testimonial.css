@@ -1,7 +1,11 @@
 /* testimonial */
-.testimonials h1 {
+/* .testimonials h1 {
   font-weight: 500;
+} */
+.testimonials h1 {
+  font-weight: 700;
 }
+
 .testimonials {
   align-items: center;
   width: 97%;

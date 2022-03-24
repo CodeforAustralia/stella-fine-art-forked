@@ -22,7 +22,7 @@ export const QuotesHome = () => {
     <div className="quotes-container">
       <div className="quotePeace">
         <h3>Peaceful Destination</h3>
-        <p id="oilOnCanvas">Oils on canvas</p>
+        <p id="oilOnCanvas">Oil on canvas</p>
       </div>
     </div>
   );
