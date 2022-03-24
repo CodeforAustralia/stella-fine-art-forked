@@ -4,11 +4,7 @@ const FrequentlyAskedQuestions = () => {
   return (
     <>
       <div className="question-main-container">
-        <div className="bg-image">
-          <header className="bg-text">
-            <p>Using Creativity in Brush Strokes</p>
-          </header>
-        </div>
+        <div className="bg-image"></div>
       </div>
 
       <div className="question-container">

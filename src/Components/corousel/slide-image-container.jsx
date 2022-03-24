@@ -1,7 +1,13 @@
 import React from 'react';
 import Buttons from '../Buttons/buttons';
 
-const SlideImageContainer = ({ status, slides, slideIndex, plusSlides }) => {
+const SlideImageContainer = ({
+  status,
+  slides,
+  slideIndex,
+  plusSlides,
+  PrintBlueThumb,
+}) => {
   return (
     <>
       {slides.map((item, index) => (
@@ -15,8 +21,12 @@ const SlideImageContainer = ({ status, slides, slideIndex, plusSlides }) => {
 
       <Buttons plusSlides={plusSlides} />
       <div id="caption">
-        <p>{slides[slideIndex - 1].name} </p>{' '}
-        <p className="imagesize">{slides[slideIndex - 1].size}</p>
+        {/* <div id="caption_left">{PrintBlueThumb}</div> */}
+        <div id="caption_left">cation left</div>
+        <div id="caption_right">
+          <p>{slides[slideIndex - 1].name} </p>{' '}
+          <p className="imagesize">{slides[slideIndex - 1].size}</p>
+        </div>
       </div>
     </>
   );

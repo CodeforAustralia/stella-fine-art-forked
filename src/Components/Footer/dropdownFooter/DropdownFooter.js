@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 import DropdownFooterPanting from './DropdownFooterPainting';
 
 export const DropdownFooter = () => {
-  const [shutDropdown, setShutDropdown] = useState(false);
+  const [shutDropdownn, setShutDropdownn] = useState(false);
   const [toggleShut, setToggleShut] = useState(false);
-  const [dropdown, setDropdown] = useState(false);
+  const [dropdownn, setDropdownn] = useState(false);
   // const [show, setHandleShow] = useState(false)
   // using string template nav class always but if the show is true set class to nav-black
   // useEffect(() => {
@@ -26,18 +26,18 @@ export const DropdownFooter = () => {
   const closeMobileMenu = () => setToggleShut(!toggleShut);
 
   const onMouseEnter = () => {
-    setDropdown(true);
+    setDropdownn(true);
   };
 
   const onMouseLeave = () => {
-    setDropdown(false);
-    setShutDropdown(false);
+    setDropdownn(false);
+    setShutDropdownn(false);
   };
 
   // dropdown menu control
-  const handleSelect = () => setShutDropdown(!shutDropdown);
+  const handleSelect = () => setShutDropdownn(!shutDropdownn);
   const closeDropdownMenu = () => {
-    setShutDropdown(false);
+    setShutDropdownn(false);
   };
 
   return (
@@ -53,11 +53,11 @@ export const DropdownFooter = () => {
             {/* <i class="fa-solid fa-chevron-right"></i> */}
             {/* <i className="fas fa-caret-arrow" /> */}
           </Link>
-          {dropdown && (
+          {dropdownn && (
             <DropdownFooterPanting
               closeDropdownMenu={closeDropdownMenu}
               closeMobileMenu={closeMobileMenu}
-              shutDropdown={shutDropdown}
+              shutDropdown={shutDropdownn}
               handleSelect={handleSelect}
             />
           )}

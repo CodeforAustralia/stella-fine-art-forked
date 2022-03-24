@@ -24,7 +24,8 @@
   font-style: italic;
 }
 h3,
-h2 {
+h2,
+h1 {
   color: rgb(99, 96, 96);
 }
 /* Lazy loader */

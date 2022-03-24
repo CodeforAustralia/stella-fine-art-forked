@@ -1,12 +1,12 @@
 .dropdown-menu {
   width: 150px;
   position: absolute;
-  top: 24.2%;
+  top: 28.5%;
   list-style: none;
   text-align: start;
   z-index: 2;
   margin-left: 6rem;
-  margin-top: 0.2rem;
+  /* margin-top: 0.2rem; */
 }
 
 .dropdown-menu.clicked {
@@ -80,7 +80,6 @@
 }
 @media only screen and (max-width: 600px) {
   .dropdown-menu {
-    /* top: 85%; */
     right: 26%;
   }
 }

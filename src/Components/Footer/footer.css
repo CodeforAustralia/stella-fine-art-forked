@@ -27,21 +27,34 @@
   margin-top: 1rem;
   bottom: 4;
 }
-#quickLink_blueThumb {
+/* #quickLink_blueThumb {
   display: flex;
   margin-top: 3rem;
   font-family: 'Nobel Book', 'san-serif';
+} */
+.quickLink_header {
+  height: 10px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  /* position: relative; */
+}
+.quickLink_header div {
+  display: inline-block;
+  position: absolute;
+}
+.quickLink_header_left {
+  left: 0px;
+  margin-left: 2rem;
+}
+.quickLink_header_right {
+  left: 0px;
+  right: 0px;
+  text-align: center;
+}
+.quickLink_header_right {
+  right: 0px;
 }
 .quickLink_left {
-  /* color: white;
-  padding: 3px 3px;
-  margin-right: 3x;
-  display: grid;
-  grid-template-columns: repeat(8, auto);
-  grid-gap: 5px;
-  list-style: none;
-  text-align: center;
-  margin-right: 1rem;*/
   width: 65%;
   padding: 3px;
   margin: 0;
@@ -58,36 +71,32 @@
 }
 
 .quickLink_left {
-  /* width: 50%;
-  display: flex;
-  color: white; */
-
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 .quickLink_left p {
   color: white;
   font-size: 1em;
-  padding: 6px 6px;
+  padding: 1rem 1rem;
 }
-#bluethum-badge {
+/* #bluethum-badge {
   width: 20%;
-}
+} */
 #painting_link {
   position: relative;
-  top: 1rem;
-  left: 2px;
+  /* top: 0rem; */
+  /* left: 2px; */
   z-index: 1;
-  padding-top: 1rem;
+  margin-bottom: 2rem;
+  /* padding-top: 1rem; */
   font-style: italic;
 }
 #painting_link p {
   color: white;
-  /* font-size: 1em; */
 }
 /* social media disign */
 #followMe-text {
-  margin-top: 4rem;
+  margin-top: 6rem;
   font-size: 20px;
   font-weight: 700;
   z-index: -1;
@@ -97,7 +106,6 @@
   display: inline-flex;
   margin-bottom: 3rem;
   font-weight: 700;
-  /* z-index: -1; */
 }
 .icons a {
   margin: 0 15px;
@@ -184,9 +192,6 @@
 .icons a:hover:nth-child(4) .layer span {
   box-shadow: -1px 1px 3px #2867b2;
 }
-/* .icons a:hover:nth-child(5) .layer span {
-  box-shadow: -1px 1px 3px #ff0000;
-} */
 .icons a .text {
   position: absolute;
   left: 50%;
@@ -201,10 +206,6 @@
   opacity: 1;
 }
 /* bluethumb */
-.bluethum-badge {
-  position: relative;
-  margin-top: 5%;
-}
 /* copyright  */
 .social-media .footertext p {
   position: relative;
@@ -240,15 +241,13 @@
   .quickLink_left {
     width: 10%;
   }
-  #bluethum-badge {
-    width: 90%;
-  }
+
   #painting_link {
     padding-bottom: 2rem;
   }
 
   #followMe-text {
-    margin-top: 11rem;
+    margin-top: 25rem;
   }
   .icons a .layer span {
     height: 80%;

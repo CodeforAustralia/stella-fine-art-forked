@@ -5,7 +5,7 @@
   list-style: none;
   text-align: start;
   z-index: 2;
-  margin-left: 6rem;
+  margin-left: 7rem;
   color: white;
   /* margin-top: 0.2rem; */
 }
@@ -21,8 +21,8 @@
   transition: all 0.5s ease;
   left: -100%;
 }
-.dropdown-footer:after {
-  content: '';
+/* .dropdown-footer:after {
+  content: "";
   position: absolute;
   top: 0;
   left: 25%;
@@ -34,7 +34,7 @@
   border-top: 0;
   margin-left: -20px;
   margin-top: -15px;
-}
+} */
 .dropdown-footer li {
   /* background-color: #929292; */
   background-color: #486255;

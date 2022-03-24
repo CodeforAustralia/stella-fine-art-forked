@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { CommissionSamples } from '../../Assets/Images/Images';
 import './commission.css';
 
@@ -7,13 +7,19 @@ const Commissions = () => {
     <div className="commission-container">
       {/* blury background */}
       <div className="hero-image-container">
-        <div className="bg-image">
-          <div className="bg-text">
-            <h1>Commission an Artwork</h1>
-            <p>Oil and/or acrylic on canvas or wood panel.</p>
-            <p> FREE SHIPPING in Australia</p>
+        <div className="bg-image"></div>
+      </div>
+      <div className="bg-text">
+        <h1>Commission an Artwork</h1>
+        <p>Oil and/or acrylic on canvas or wood panel.</p>
+        <p> FREE SHIPPING in Australia</p>
+      </div>
+      <div className="commission-images-row">
+        {CommissionSamples.map((sampleImg, i) => (
+          <div key={i} className="commission-image-column">
+            <img src={sampleImg.image} alt={sampleImg.name} />
           </div>
-        </div>
+        ))}
       </div>
       {/* notes for commission */}
       <div className="commission-note">
@@ -46,14 +52,6 @@ const Commissions = () => {
             before starting.
           </p>
         </div>
-      </div>
-
-      <div className="commission-images-row">
-        {CommissionSamples.map((sampleImg, i) => (
-          <div key={i} className="commission-image-column">
-            <img src={sampleImg.image} alt={sampleImg.name} />
-          </div>
-        ))}
       </div>
     </div>
   );

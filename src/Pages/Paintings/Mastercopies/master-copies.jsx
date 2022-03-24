@@ -5,7 +5,7 @@ import SlideControler from '../../../Components/corousel/SlideControler';
 const Mastercopies = () => {
   return (
     <Fragment>
-      <SlideControler slideImages={MastercopiesImages} />
+      <SlideControler slideImages={MastercopiesImages} blueThumb={''} />
     </Fragment>
   );
 };
