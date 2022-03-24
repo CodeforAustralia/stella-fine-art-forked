@@ -1,7 +1,3 @@
-/* testimonial */
-/* .testimonials h1 {
-  font-weight: 500;
-} */
 .testimonials h1 {
   font-weight: 700;
 }
@@ -10,8 +6,6 @@
   align-items: center;
   width: 97%;
   margin: 1rem auto;
-  /* font: 400 100%/1 system-ui; */
-  /* background: red; */
   font-size: 16px;
   display: grid;
   justify-items: center;
@@ -19,9 +13,6 @@
   z-index: -1;
   position: static;
 }
-/* .commission-container .testimonial-row:first-child {
-    margin-top: 3rem;
-  } */
 .testimonial-row {
   margin-top: 1rem;
   width: 75%;
@@ -39,105 +30,25 @@
 }
 
 .testimonial-row .column-right {
-  /* max-width: 900px; */
   margin-left: 1.4rem;
   color: #6c6a6a;
   margin-top: auto;
   margin-bottom: auto;
   font-style: italic;
-  font-size: 16px;
+  font-size: calc(6px + 1.4vmin);
 }
 .testimonials #testimonial-heading {
   color: rgb(97, 94, 94);
   margin-bottom: 3rem;
   margin-top: 2rem;
 }
-/* overlay */
-/* table */
-/* .table-container {
-    text-align: center;
-    margin-top: 5rem;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .table-container p {
-    font-size: 16px;
-    color: rgba(97, 94, 94, 0.99);
-  }
-  table {
-    margin: 4rem auto;
-    width: 60%;
-  
-    margin: 3rem auto;
-    text-align: center;
-    width: 60%;
-    border-collapse: collapse;
-    box-sizing: border-box;
-    color: rgb(97, 94, 95);
-  }
-  
-  thead {
-    background-color: rgb(56, 74, 51);
-    color: #fff;
-    text-align: center;
-  }
-  
-  th {
-    border: 1px solid #dddddd;
-    text-align: center;
-    padding: 8px;
-  }
-  td {
-    border: 1px solid rgba(72, 98, 85, 0.1);
-    text-align: center;
-    padding: 8px;
-  }
-  tr td {
-    font-weight: bold;
-  }
-  tr:nth-child(even) {
-    border: 1px solid rgba(72, 98, 85, 0.1);
 
-    background-color: rgba(72, 98, 85, 0.1);
-  } */
-/* @media screen and (max-width: 1920px) {
-    
-    .commission-container .bg-text {
-      top: 43%;
-    }
-  } */
 @media screen and (max-width: 1024px) {
   .commission-container .bg-image {
     height: 250px;
   }
-  /* .commission-container .bg-text {
-      top: 45%;
-    } */
 }
 @media screen and (max-width: 920px) {
-  /* .commission-container::webkit-scrollbar {
-      display: none;
-    } */
-  /* Hide scrollbar for IE, Edge add Firefox */
-  /* .commission-container {
-      -ms-overflow-style: none;
-      scrollbar-width: none;
-    } */
-  /* .commission-container .bg-image {
-      height: 200px;
-    } */
-
-  /* .bg-text {
-      top: 40%;
-      left: 50%;
-    }
-     .hero-image-container h1 {
-      font-size: 1.5rem;
-    }
-    .hero-image-container p {
-      font-size: 1rem;
-    } */
   .testimonials .testimonial-row {
     display: block;
     padding: 15px;
@@ -155,56 +66,22 @@
   }
 }
 @media screen and (max-width: 768px) {
-  /*  .commission-container .bg-image {
-      width: 100%;
-    }
-    .commission-container .bg-text {
-     
-      padding: 16px;
-    }
-    .commission-container .commission-note {
-      width: 85%;
-    }
-  
-    .commission-container .commission-images-row {
-      width: 95%;
-    }
-    .commission-container .commission-images-row img {
-      max-height: 200px;
-    }
-    .commission-container .hero-image-container h1 {
-      font-size: 1.4rem;
-    } */
-  /* .commission-container .hero-image-container p {
-      font-size: 1rem;
-    } */
-  /* .commission-images-row img {
-      max-height: 170px;
-    } */
+  .testimonial-row .column-right {
+    font-size: calc(6px + 1.4vmin);
+  }
 }
 
 @media screen and (max-width: 680px) {
-  /* .commission-container .bg-text {
-      width: 100%;
-    } */
-
-  /* .commission-container .hero-image-container p {
-      font-size: 1rem;
-    }
-    table {
-      width: 80%;
-    } */
+  .testimonial-row .column-right p {
+    font-size: calc(6px + 1.61vmin);
+  }
   .testimonials .testimonial-row {
     width: 93%;
-  }
-  .testimonial-row .column-right p {
-    font-style: italic;
-    margin: -3rem 0 2rem 1rem;
   }
 }
 @media screen and (max-width: 480px) {
   .testimonial-row .column-right p {
-    font-style: italic;
     margin: -3rem 0 2rem 1rem;
+    font-size: calc(8px + 2vmin);
   }
 }

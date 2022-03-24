@@ -10,7 +10,7 @@ const Commissions = () => {
         <div className="bg-image"></div>
       </div>
       <div className="bg-text">
-        <h1>Commission an Artwork</h1>
+        <h2>Commission an Artwork</h2>
         <p>Oil and/or acrylic on canvas or wood panel.</p>
         <p> FREE SHIPPING in Australia</p>
       </div>

@@ -57,7 +57,7 @@ function Navbar() {
             </Link>
           </li>
           <li
-            className="nav-item"
+            className="nav-item top_dropDown"
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}>
             <Link to="/" className="nav-links">
@@ -75,7 +75,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link to="/artist" className="nav-links" onClick={closeMobileMenu}>
-              THE ARTIST
+              ARTIST
             </Link>
           </li>
           <li className="nav-item">

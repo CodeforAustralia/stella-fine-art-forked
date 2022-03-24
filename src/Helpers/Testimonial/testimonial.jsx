@@ -7,7 +7,7 @@ import Stellamum from '../../Assets/Images/testimonial/stellamum.jpg';
 export const Testimonial = () => {
   return (
     <div className="testimonials">
-      <h1 id="testimonial-heading">Testimonials</h1>
+      <h2>Testimonials</h2>
 
       <div className="testimonial-row">
         <div className="column-left">

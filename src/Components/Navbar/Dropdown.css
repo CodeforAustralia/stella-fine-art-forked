@@ -6,7 +6,6 @@
   text-align: start;
   z-index: 2;
   margin-left: 6rem;
-  /* margin-top: 0.2rem; */
 }
 
 .dropdown-menu.clicked {
@@ -35,13 +34,11 @@
   margin-top: -17px;
 }
 .dropdown-menu li {
-  /* background-color: #929292; */
   background-color: #486255;
   cursor: pointer;
   color: #f8f6f6;
   text-align: center;
   font-size: 1rem;
-  /* z-index:1; */
 }
 
 .dropdown-menu li:hover {
@@ -68,7 +65,6 @@
   }
   .dropdown-menu li {
     font-size: 0.8rem;
-    /* background-color: #929292; */
     background-color: #486255;
   }
 

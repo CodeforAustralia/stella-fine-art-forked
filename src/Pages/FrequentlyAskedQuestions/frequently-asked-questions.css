@@ -46,18 +46,12 @@
 
 /* media screen */
 @media screen and (max-width: 1224px) {
-  /* .question-main-container .bg-image {
-    height: 250px;
-  } */
   .question-main-container .bg-text {
     top: 40%;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  /* .question-main-container .bg-image {
-    height: 250px;
-  } */
   .question-main-container .bg-text {
     top: 40%;
   }

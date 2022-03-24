@@ -13,7 +13,7 @@ const Classes = () => {
       <div id="class_details">
         <h2>ART CLASSES STARTING TERM 2</h2>
 
-        <div>
+        <div className="class_topNote">
           <p>
             I will be holding children's art classes aged 8-14yrs from my
             art-studio located in Woodbine (near Campbelltown) Sydney
@@ -32,6 +32,8 @@ const Classes = () => {
             On the first session date, materials will be supplied, after that in
             week 2, they need to bring in their own materials.
           </p>
+        </div>
+        <div className="class_bottomNote">
           <br />
           <h4>Materials needed</h4>
           <p>
