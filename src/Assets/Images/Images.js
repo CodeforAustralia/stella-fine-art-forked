@@ -352,8 +352,8 @@ export const blueThumb = (
       <img
         src="https://bluethumb.com.au/integrations/badge/for-sale/outline-blue.png?destination_id=my_artist_profile&fbclid=IwAR1x91rquyySqIXg33D2cTj9uIPXXUM4BE9LFwO4wnekR3NdNyHUbceF7L4"
         alt=""
-        width="120"
-        height="50"
+        width="135"
+        height="60"
       />
     </a>
   </div>

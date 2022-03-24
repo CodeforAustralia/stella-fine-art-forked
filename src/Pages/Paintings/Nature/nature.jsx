@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { QuotesNature } from '../../../Helpers/AllQuotes/quotes';
-import { NatureImages } from '../../../Assets/Images/Images';
+import { NatureImages, blueThumb } from '../../../Assets/Images/Images';
 import SlideControler from '../../../Components/corousel/SlideControler';
 
 const Nature = () => {
@@ -8,7 +8,11 @@ const Nature = () => {
 
   return (
     <Fragment>
-      <SlideControler slideImages={NatureImages} PrintQuotes={PrintQuotes} />
+      <SlideControler
+        slideImages={NatureImages}
+        PrintQuotes={PrintQuotes}
+        blueThumb={blueThumb}
+      />
     </Fragment>
   );
 };

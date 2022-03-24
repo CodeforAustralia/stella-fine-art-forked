@@ -3,7 +3,7 @@ import ThumbNailImages from './thumb-nail-images';
 import SlideImageContainer from './slide-image-container';
 import './carousel.css';
 
-const SlideControler = ({ slideImages, PrintQuotes }) => {
+const SlideControler = ({ slideImages, PrintQuotes, blueThumb }) => {
   const imgarrlength = slideImages.length;
 
   const [imageIndex, setImageIndex] = useState(1);
@@ -52,6 +52,7 @@ const SlideControler = ({ slideImages, PrintQuotes }) => {
           slides={slideImages}
           status={status}
           plusSlides={plusSlides}
+          PrintBlueThumb={blueThumb}
         />
 
         <ThumbNailImages

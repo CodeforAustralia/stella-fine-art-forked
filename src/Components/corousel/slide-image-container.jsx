@@ -21,8 +21,8 @@ const SlideImageContainer = ({
 
       <Buttons plusSlides={plusSlides} />
       <div id="caption">
-        {/* <div id="caption_left">{PrintBlueThumb}</div> */}
-        <div id="caption_left">cation left</div>
+        <div id="caption_left">{PrintBlueThumb}</div>
+
         <div id="caption_right">
           <p>{slides[slideIndex - 1].name} </p>{' '}
           <p className="imagesize">{slides[slideIndex - 1].size}</p>
