@@ -49,7 +49,7 @@ export const DropdownFooter = () => {
           onClick={onMouseEnter}
           onMouseLeave={onMouseLeave}>
           <Link to="/" className="nav-links">
-            <p>Paintings{''}⏩</p>
+            <p onClick={onMouseEnter}>Paintings{''}⏩</p>
             {/* <i class="fa-solid fa-chevron-right"></i> */}
             {/* <i className="fas fa-caret-arrow" /> */}
           </Link>

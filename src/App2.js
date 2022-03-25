@@ -84,7 +84,6 @@ const App = () => {
 
             <Route path="/sold" element={<Sold />} />
           </Routes>
-
           <Footer />
         </Router>
       </Suspense>
