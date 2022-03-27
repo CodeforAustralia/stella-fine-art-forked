@@ -38,8 +38,8 @@ const Footer = () => {
           </p>
           <p>
             <em>
-              <Link style={mystyle} to="/classes" className="enquire_now">
-                Classes
+              <Link style={mystyle} to="/Artist">
+                Artist
               </Link>
             </em>
           </p>
@@ -50,14 +50,6 @@ const Footer = () => {
               </Link>
             </em>
           </p>
-
-          <p>
-            <em>
-              <Link style={mystyle} to="/Artist">
-                Artist
-              </Link>
-            </em>
-          </p>
           <p>
             <em>
               <Link style={mystyle} to="/commissions">
@@ -65,6 +57,14 @@ const Footer = () => {
               </Link>
             </em>
           </p>
+          <p>
+            <em>
+              <Link style={mystyle} to="/classes" className="enquire_now">
+                Classes
+              </Link>
+            </em>
+          </p>
+
           <p>
             <em>
               <Link style={mystyle} to="/faquestions">

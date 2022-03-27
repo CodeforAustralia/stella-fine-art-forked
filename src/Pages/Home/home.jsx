@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import { BannerImage } from '../../Assets/Images/Images';
+// import { BannerImage } from '../../Assets/Images/Images';
+import HomeBanner from '../../Assets/Images/globalimages/peacefulJourney.jpg';
 import { QuotesHome } from '../../Helpers/AllQuotes/quotes';
 import Artist from '../Artist/artist';
 import Testimonial from '../Testimonial/testimonial';
@@ -14,7 +15,7 @@ const Home = () => {
         {/* home page */}
         <div className="landing_Container">
           <div className="landing_Image">
-            <img src={BannerImage[0].image} alt={BannerImage[0].name} />
+            <img src={HomeBanner} alt="Peacefull Journey Painting" />
             <p>{PrintQuotes}</p>
           </div>
         </div>
@@ -32,7 +33,7 @@ const Home = () => {
 
           <p id="ages_home">
             Stella's Fine-Art now teaching children's art classes age 8 - 14
-            yrs.
+            years.
           </p>
           <p>
             Click on this{' '}

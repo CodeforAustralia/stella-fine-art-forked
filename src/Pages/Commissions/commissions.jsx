@@ -1,4 +1,3 @@
-// import React from 'react';
 import { CommissionSamples } from '../../Assets/Images/Images';
 import './commission.css';
 
