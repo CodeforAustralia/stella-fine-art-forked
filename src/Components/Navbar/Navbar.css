@@ -71,7 +71,7 @@
   color: rgb(116, 108, 108);
 }
 /* media screen */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1020px) {
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -151,11 +151,11 @@
 }
 @media (max-width: 414px) {
   .nav-menu {
-    top: 15.5%;
+    top: 15%;
   }
 }
 @media (max-width: 360px) {
   .nav-menu {
-    top: 16.5%;
+    top: 16%;
   }
 }

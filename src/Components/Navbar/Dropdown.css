@@ -55,7 +55,7 @@
   padding: 6px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1020px) {
   .dropdown-menu {
     top: 89%;
     right: 35%;
