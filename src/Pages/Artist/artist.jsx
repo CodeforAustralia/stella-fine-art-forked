@@ -1,5 +1,5 @@
 import React from 'react';
-import ArtistMessage from '../../Helpers/BodyContent/artist.jsx';
+import ArtistMessage from '../../Helpers/AboutArtist/artist.jsx';
 import './artist.css';
 
 const Artist = () => {
