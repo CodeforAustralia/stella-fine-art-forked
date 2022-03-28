@@ -42,7 +42,7 @@
   display: flex;
   justify-content: center;
 
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .home-image-column {
@@ -71,7 +71,7 @@
 }
 #class_details1 {
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
   display: block;
