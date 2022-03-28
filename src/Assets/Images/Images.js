@@ -1,11 +1,11 @@
 // HOME PAGE
-export const BannerImage = [
-  {
-    id: 1,
-    name: 'Peaceful Journey',
-    image: require('./globalimages/peacefulJourney.jpg').default,
-  },
-];
+// export const BannerImage = [
+//   {
+//     id: 1,
+//     name: 'Peaceful Journey',
+//     image: require('./globalimages/peacefulJourney.jpg').default,
+//   },
+// ];
 // Nature
 export const NatureImages = [
   {

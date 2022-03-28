@@ -91,9 +91,14 @@
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 3rem;
-  /* animation: myclass 5s infinite; */
-  animation-name: myclass;
-  animation-duration: 4s;
+  transition-duration: 2s;
+  transition-property: width;
+}
+.one {
+  transition-timing-function: linear;
+}
+/* div > .paintbrush_text {
+  animation: myclass 5s infinite;
 }
 @keyframes myclass {
   from {
@@ -102,7 +107,7 @@
   to {
     left: 200px;
   }
-}
+} */
 @media screen and (max-width: 768px) {
   .landing_Image {
     width: 100%;

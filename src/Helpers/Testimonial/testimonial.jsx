@@ -11,7 +11,13 @@ export const Testimonial = () => {
 
       <div className="testimonial-row">
         <div className="column-left">
-          <img src={Coralwilkins} alt="..." height="" width="" />
+          <img
+            src={Coralwilkins}
+            alt="Aussie Lorikeet"
+            height=""
+            width=""
+            loading="lazy"
+          />
         </div>
         <div className="column-right">
           <p>
@@ -32,7 +38,13 @@ export const Testimonial = () => {
 
       <div className="testimonial-row">
         <div className="column-left">
-          <img src={chantelle} alt="..." height="" width="" />
+          <img
+            src={chantelle}
+            alt="Nature Beauty"
+            height=""
+            width=""
+            loading="lazy"
+          />
         </div>
         <div className="column-right">
           <p>
@@ -50,7 +62,13 @@ export const Testimonial = () => {
       </div>
       <div className="testimonial-row">
         <div className="column-left">
-          <img src={melanie} alt="..." height="" width="" />
+          <img
+            src={melanie}
+            alt="Calming Florals"
+            height=""
+            width=""
+            loading="lazy"
+          />
         </div>
         <div className="column-right">
           <p>
@@ -67,7 +85,13 @@ export const Testimonial = () => {
       </div>
       <div className="testimonial-row">
         <div className="column-left">
-          <img src={Stellamum} alt="..." height="" width="" />
+          <img
+            src={Stellamum}
+            alt="Peaceful Journey"
+            height=""
+            width=""
+            loading="lazy"
+          />
         </div>
         <div className="column-right">
           <p>
@@ -87,7 +111,13 @@ export const Testimonial = () => {
       </div>
       <div className="testimonial-row">
         <div className="column-left">
-          <img src={Themis} alt="..." height="" width="" />
+          <img
+            src={Themis}
+            alt="Dee Blue Sea Turtle"
+            height=""
+            width=""
+            loading="lazy"
+          />
         </div>
         <div className="column-right">
           <p>

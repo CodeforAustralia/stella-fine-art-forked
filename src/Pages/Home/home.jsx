@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
-// import { BannerImage } from '../../Assets/Images/Images';
-import HomeBanner from '../../Assets/Images/globalimages/peacefulJourney.jpg';
+import HomeBanner from './peacefulJourney.jpg';
 import { QuotesHome } from '../../Helpers/AllQuotes/quotes';
 import Artist from '../Artist/artist';
 import Testimonial from '../Testimonial/testimonial';
@@ -21,7 +20,7 @@ const Home = () => {
         </div>
       </header>
 
-      <div className="paintbrush_text">
+      <div className="paintbrush_text one">
         <div className="home-images-row">
           <div className="home-image-column">
             <img src={PaintBrush} alt="paintBrushes" />
@@ -48,11 +47,8 @@ const Home = () => {
           <p>* Limited spaces available. *</p>
         </div>
       </div>
-
-      {/* temporary add ends */}
       <Testimonial />
       <Artist />
-      {/* <Footer />{" "} */}
     </>
   );
 };
