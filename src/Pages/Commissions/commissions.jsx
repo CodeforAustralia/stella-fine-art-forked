@@ -16,7 +16,7 @@ const Commissions = () => {
       <div className="commission-images-row">
         {CommissionSamples.map((sampleImg, i) => (
           <div key={i} className="commission-image-column">
-            <img src={sampleImg.image} alt={sampleImg.name} />
+            <img src={sampleImg.image} alt={sampleImg.name} loading="lazy" />
           </div>
         ))}
       </div>
