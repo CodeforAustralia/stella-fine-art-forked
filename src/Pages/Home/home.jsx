@@ -4,6 +4,8 @@ import { QuotesHome } from '../../Helpers/AllQuotes/quotes';
 import Artist from '../Artist/artist';
 import Testimonial from '../Testimonial/testimonial';
 import PaintBrush from '../../Assets//Images/globalimages/small brushes.jpg';
+// import Img from 'react-cloudinary-lazy-image';
+
 import './homestyles.css';
 
 const Home = () => {
@@ -15,6 +17,12 @@ const Home = () => {
         <div className="landing_Container">
           <div className="landing_Image">
             <img src={HomeBanner} alt="Peacefull Journey Painting" />
+
+            {/* <Img
+              cloudName={'CloudName'}
+              imageName={HomeBanner}
+              alt="Peacefull Journey Painting"
+            /> */}
             <p>{PrintQuotes}</p>
           </div>
         </div>

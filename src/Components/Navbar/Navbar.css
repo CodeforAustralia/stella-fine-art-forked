@@ -62,7 +62,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(12px + 4vmin);
+  font-size: calc(12px + 5vmin);
   color: rgb(97, 94, 94);
   font-weight: 400;
 }
