@@ -1,7 +1,7 @@
 .dropdown-menu {
   width: 150px;
   position: absolute;
-  top: 28.5%;
+  top: 31%;
   list-style: none;
   text-align: start;
   z-index: 2;
@@ -54,11 +54,22 @@
   color: rgb(251, 249, 249);
   padding: 6px;
 }
+.fa-bars {
+  color: #486255;
+  font-size: 2rem;
+  z-index: 2;
+}
 
 @media screen and (max-width: 1020px) {
+  .fa-times {
+    color: #486255;
+    transition: all 0.5s ease;
+    font-size: 2rem;
+    z-index: 2;
+  }
   .dropdown-menu {
-    top: 89%;
-    right: 35%;
+    top: 89.2%;
+    right: 40%;
   }
   .dropdown-menu:after {
     left: 70%;
@@ -74,8 +85,13 @@
     left: 30%;
   }
 }
+@media screen and (max-width: 780px) {
+  .dropdown-menu {
+    right: 35%;
+  }
+}
 @media only screen and (max-width: 600px) {
   .dropdown-menu {
-    right: 26%;
+    right: 30%;
   }
 }
