@@ -40,7 +40,7 @@ const Home = () => {
         <div id="class_details1">
           <p id="home_paintTitle">
             {' '}
-            Stella's Fine-Art now teaching children's Art Classes ages 8 - 14
+            Stella's Fine-Art now teaching Children's Art Classes ages 8 - 14
             years.
           </p>
           {/* <p id="announcement_home">NEW & EXCITING ANNOUNCEMENT</p> */}
