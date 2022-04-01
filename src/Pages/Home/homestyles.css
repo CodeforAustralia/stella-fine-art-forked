@@ -61,7 +61,7 @@
 #home_paintTitle {
   font-size: calc(7px + 2.5vmin);
 }
-#announcement_home {
+.announcement_home {
   font-size: calc(7px + 3.5vmin);
   margin-bottom: 1rem;
   color: rgb(99, 96, 96);

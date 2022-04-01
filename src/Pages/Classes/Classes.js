@@ -11,26 +11,28 @@ const Classes = () => {
       </div>
 
       <div id="class_details">
-        <h2>ART CLASSES STARTING TERM 2</h2>
+        <h2>CHILDREN'S ART CLASSES</h2>
+        <h2>STARTING SOON - TERM 2</h2>
 
         <div className="class_topNote">
           <p>
-            I will be holding children's art classes aged 8-14yrs from my
-            art-studio located in Woodbine (near Campbelltown) Sydney
-            south-west.
+            I will be teaching Children's Art Classes ages 8-14yrs from my
+            Art-Studio. It will be held in Woodbine (near Leumeah) Sydney
+            South-West.
           </p>
           <p>
-            I will work with them to develop their skills and increase their
-            confidence. They will learn to draw from life, still life, photos or
-            from their imagination.
+            The classes are great for beginners interested in learning to
+            draw/and or paint well as well as to help them improve their
+            creative skills in a supportive and comfortable environtment.
           </p>
           <p>
-            Once they've developed their skills in drawing, next we will move to
-            using colour. Either, pencil, pastels or acrylic painting.
+            They will learn to paint from life, still life, photos or their
+            imagination using pencils, pastels watercolours or acrylic
+            paintings.
           </p>
           <p>
-            On the first session date, materials will be supplied, after that in
-            week 2, they need to bring in their own materials.
+            On their first week materials will be supplied, after that in week
+            2, they need can bring in their own materials.
           </p>
         </div>
         <div className="class_bottomNote">
@@ -80,7 +82,7 @@ const Classes = () => {
             </em>{' '}
             NOW.
           </p>
-          <p>* Limited spaces available. *</p>{' '}
+          <p>* Limited spaces available *</p>{' '}
         </div>
       </div>
     </>
