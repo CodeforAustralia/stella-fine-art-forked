@@ -172,7 +172,7 @@ const ContactForm = () => {
                   <Select
                     options={EnquiriesOption}
                     onChange={handleEnquiries}
-                    placeholder=""
+                    placeholder="Reason for contact..."
                   />
                 </div>
                 <input

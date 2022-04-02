@@ -74,13 +74,12 @@ const Classes = () => {
             for 1 term (8 sessions)
           </p>
           <p>
-            REGISTER ON THIS {''}
+            Secure your spot{' '}
             <em>
               <Link to="/contact" className="enquire_now">
-                LINK
+                TODAY
               </Link>{' '}
             </em>{' '}
-            NOW.
           </p>
           <p>* Limited spaces available *</p>{' '}
         </div>

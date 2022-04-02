@@ -58,16 +58,19 @@
   margin-right: auto;
   margin-left: auto;
 }
+.headpaint {
+  width: 100%;
+}
 #home_paintTitle {
-  font-size: calc(7px + 2.5vmin);
+  font-size: calc(6px + 2.6vmin);
 }
 .announcement_home {
-  font-size: calc(7px + 3.5vmin);
+  font-size: calc(6px + 3.3vmin);
   margin-bottom: 1rem;
   color: rgb(99, 96, 96);
 }
 #ages_home {
-  font-size: calc(7px + 2.8vmin);
+  font-size: calc(6px + 2.8vmin);
 }
 #class_details1 {
   text-align: center;
@@ -96,12 +99,17 @@
   transition-property: width;
 }
 
+@media screen and (max-width: 980px) {
+  .paintbrush_text {
+    width: 79%;
+  }
+}
 @media screen and (max-width: 768px) {
   .landing_Image {
     width: 100%;
   }
   .paintbrush_text {
-    width: 90%;
+    width: 85%;
   }
 }
 
@@ -112,6 +120,7 @@
   .paintbrush_text {
     padding: 2rem 1rem;
     margin-top: 2rem;
+    width: 90%;
   }
 }
 @media screen and (max-width: 400px) {

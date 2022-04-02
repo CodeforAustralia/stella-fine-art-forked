@@ -29,33 +29,31 @@ const Home = () => {
       </header>
 
       <div className="paintbrush_text">
-        <p className="announcement_home">NEW & EXCITING ANNOUNCEMENT</p>{' '}
-        <p className="announcement_home">Children's Art Classes </p>{' '}
-        <p className="announcement_home">STARTING SOON</p>
+        <div className="headpaint">
+          <p className="announcement_home">NEW & EXCITING ANNOUNCEMENT</p>{' '}
+          <p className="announcement_home">Children's Art Classes </p>{' '}
+          <p className="announcement_home">Starting in TERM 2 </p>
+        </div>
+
         <div className="home-images-row">
           <div className="home-image-column">
             <img src={PaintBrush} alt="paintBrushes" />
           </div>
         </div>
         <div id="class_details1">
-          <p id="home_paintTitle">
+          <p id="ages_home">
             {' '}
             Stella's Fine-Art now teaching Children's Art Classes ages 8 - 14
             years.
           </p>
-          {/* <p id="announcement_home">NEW & EXCITING ANNOUNCEMENT</p> */}
 
-          {/* <p id="ages_home">
-            Stella's Fine-Art now teaching children's art classes age 8 - 14
-            years.
-          </p> */}
           <p>
-            HURRY - REGISTER{' '}
+            For more information click{' '}
             <em>
               <Link to="/classes" className="enquire_now">
-                now
-              </Link>{' '}
-            </em>{' '}
+                here.
+              </Link>
+            </em>
           </p>
 
           <p>* Limited spaces available *</p>
