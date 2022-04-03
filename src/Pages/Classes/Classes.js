@@ -21,7 +21,7 @@ const Classes = () => {
             South-West.
           </p>
           <p>
-            The classes are great for beginners interested in learning to
+            These classes are great for beginners interested in learning to
             draw/and or paint well. It will help them improve their creative
             skills in a supportive and comfortable environment.
           </p>

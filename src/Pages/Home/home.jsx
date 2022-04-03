@@ -30,7 +30,7 @@ const Home = () => {
 
       <div className="paintbrush_text">
         <div className="headpaint">
-          <p className="announcement_home">NEW & EXCITING ANNOUNCEMENT</p>{' '}
+          <h1>NEW & EXCITING ANNOUNCEMENT</h1>{' '}
           <p className="announcement_home">Children's Art Classes </p>{' '}
           <p className="announcement_home">Starting in TERM 2 </p>
         </div>
@@ -40,23 +40,25 @@ const Home = () => {
             <img src={PaintBrush} alt="paintBrushes" />
           </div>
         </div>
-        <div id="class_details1">
-          <p id="ages_home">
-            {' '}
-            Stella's Fine-Art now teaching Children's Art Classes ages 8 - 14
-            years.
-          </p>
+        <div className="headpaint">
+          <div id="class_details1">
+            <p id="ages_home">
+              {' '}
+              Stella's Fine-Art now teaching Children's Art Classes ages 8 - 14
+              years.
+            </p>
 
-          <p>
-            For more information click{' '}
-            <em>
-              <Link to="/classes" className="enquire_now">
-                here.
-              </Link>
-            </em>
-          </p>
+            <p>
+              For more information click{' '}
+              <em>
+                <Link to="/classes" className="enquire_now">
+                  here.
+                </Link>
+              </em>
+            </p>
 
-          <p>* Limited spaces available *</p>
+            <p>* Limited spaces available *</p>
+          </div>
         </div>
       </div>
       <Testimonial />
