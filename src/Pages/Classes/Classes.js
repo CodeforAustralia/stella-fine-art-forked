@@ -22,8 +22,8 @@ const Classes = () => {
           </p>
           <p>
             The classes are great for beginners interested in learning to
-            draw/and or paint well as well as to help them improve their
-            creative skills in a supportive and comfortable environtment.
+            draw/and or paint well. It will help them improve their creative
+            skills in a supportive and comfortable environment.
           </p>
           <p>
             They will learn to paint from life, still life, photos or their
@@ -32,7 +32,7 @@ const Classes = () => {
           </p>
           <p>
             On their first week materials will be supplied, after that in week
-            2, they need can bring in their own materials.
+            2, they need to bring in their own materials.
           </p>
         </div>
         <div className="class_bottomNote">
