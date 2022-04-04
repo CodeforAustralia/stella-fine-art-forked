@@ -30,7 +30,7 @@ const Home = () => {
 
       <div className="paintbrush_text">
         <div className="headpaint">
-          <h1>NEW & EXCITING ANNOUNCEMENT</h1>{' '}
+          <h1>NEW & EXCITING ANNOUNCEMENT</h1>
           <p className="announcement_home">Children's Art Classes </p>{' '}
           <p className="announcement_home">Starting in TERM 2 </p>
         </div>
@@ -42,10 +42,12 @@ const Home = () => {
         </div>
         <div className="headpaint">
           <div id="class_details1">
-            <p id="ages_home">
+            <p className="ages_home">
               {' '}
-              Stella's Fine-Art now teaching Children's Art Classes ages 8 - 14
-              years.
+              Stella's Fine-Art now teaching
+              <p className="ages_home">
+                Children's Art Classes ages 8 - 14 years.
+              </p>
             </p>
 
             <p>

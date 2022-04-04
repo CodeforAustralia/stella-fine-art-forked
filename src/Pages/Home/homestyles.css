@@ -69,7 +69,7 @@
   margin-bottom: 1rem;
   color: rgb(99, 96, 96);
 }
-#ages_home {
+.ages_home {
   font-size: calc(6px + 2.8vmin);
 }
 #class_details1 {
@@ -87,9 +87,9 @@
 }
 
 .paintbrush_text {
-  max-width: 45rem;
+  max-width: 40rem;
   padding: 3rem 2rem;
-  border: 5px solid #486255;
+  border: 3px solid #486255;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -109,7 +109,7 @@
     width: 100%;
   }
   .paintbrush_text {
-    width: 85%;
+    width: 80%;
   }
 }
 
@@ -118,8 +118,8 @@
     font-size: 12px;
   }
   .paintbrush_text {
-    padding: 2rem 1rem;
-    margin-top: 2rem;
+    /* padding: 2rem 1rem;
+    margin-top: 2rem; */
     width: 90%;
   }
 }
