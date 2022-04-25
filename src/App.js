@@ -1,9 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import React, { lazy, Suspense } from 'react';
+import React, { lazy, Suspense, useEffect } from 'react';
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/footer';
+import ReactGa from 'react-ga';
 const Home = lazy(() => import('./Pages/Home/home'));
 const Artist = lazy(() => import('./Pages/Artist/artist'));
 
@@ -34,8 +35,15 @@ const Petportraits = lazy(() =>
 );
 
 const Sold = lazy(() => import('./Pages/Paintings/Sold/sold'));
+const GAcode = process.env.REACT_APP_GACODE;
 
 const App = () => {
+  useEffect(() => {
+    ReactGa.initialize(`${GAcode}`);
+    // TO REPORT PAGE VIEW
+    ReactGa.pageview(window.location.pathname + window.location.search);
+  }, []);
+
   return (
     <div>
       <Helmet>

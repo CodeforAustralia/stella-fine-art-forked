@@ -21,7 +21,7 @@
   box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
   display: flex;
   z-index: -1;
-  /* transform: translate3d(10px, 0, 0); */
+  /* transform: translate3d(50%, 0, 0); */
 }
 
 .testimonial-row .column-left img {
