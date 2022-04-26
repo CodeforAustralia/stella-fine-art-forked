@@ -19,7 +19,7 @@ const ContactForm = () => {
     copyFormData[e.target.name] = e.target.value;
     setFormData(copyFormData);
   };
-  const gaEventTracker = UseAnalyticsEventTracker('Contact us');
+  const gaEventTracker = UseAnalyticsEventTracker('Contact');
   const summitData = async (e) => {
     e.preventDefault();
     setThankMsg(true);
@@ -61,10 +61,11 @@ const ContactForm = () => {
       ]),
     };
     // STELLA'S
-    fetch(
-      'https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Clients',
-      requestOptions,
-    )
+    // fetch(
+    //   'https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Clients',
+    //   requestOptions,
+    // )
+    fetch(process.env.REACT_APP_CONTACT_URL, requestOptions)
       .then((response) => response.text())
       .catch((error) => console.log('error', error));
 
@@ -90,10 +91,11 @@ const ContactForm = () => {
       ]),
     };
     // STELLA'S
-    fetch(
-      'https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Survey',
-      requestcountFindings,
-    )
+    //   fetch(
+    //   'https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Survey',
+    //   requestcountFindings,
+    // )
+    fetch(process.env.REACT_APP_SURVEY_URL, requestcountFindings)
       .then((response) => response.text())
       .catch((error) => console.log('error', error));
 
