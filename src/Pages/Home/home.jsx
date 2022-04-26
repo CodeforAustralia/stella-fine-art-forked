@@ -4,6 +4,7 @@ import { QuotesHome } from '../../Helpers/AllQuotes/quotes';
 import Artist from '../Artist/artist';
 import Testimonial from '../Testimonial/testimonial';
 import PaintBrush from '../../Assets//Images/globalimages/small brushes.jpg';
+
 // import Img from 'react-cloudinary-lazy-image';
 
 import './homestyles.css';

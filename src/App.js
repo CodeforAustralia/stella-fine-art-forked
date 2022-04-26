@@ -39,9 +39,9 @@ const GAcode = process.env.REACT_APP_GACODE;
 
 const App = () => {
   useEffect(() => {
-    ReactGa.initialize(`${GAcode}`);
+    ReactGa.initialize(GAcode);
     // TO REPORT PAGE VIEW
-    ReactGa.pageview(window.location.pathname + window.location.search);
+    // ReactGa.pageview(window.location.pathname + window.location.search);
   }, []);
 
   return (

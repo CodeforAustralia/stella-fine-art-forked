@@ -3,6 +3,10 @@ import EnquiriesOption from '../Navbar/dropDownItems';
 import './contact.css';
 import emailjs from 'emailjs-com';
 import Select from 'react-select';
+import UseAnalyticsEventTracker from '../../Helpers/GoogleAnalytic/UserAnalyticsEventTracker';
+// import ReactGa from 'react-ga';
+
+// const GAcode = process.env.REACT_APP_GACODE;
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({});
@@ -15,10 +19,16 @@ const ContactForm = () => {
     copyFormData[e.target.name] = e.target.value;
     setFormData(copyFormData);
   };
-
+  const gaEventTracker = UseAnalyticsEventTracker('Contact us');
   const summitData = async (e) => {
     e.preventDefault();
     setThankMsg(true);
+    gaEventTracker('call');
+
+    // ReactGa.event({
+    //   catergary: 'Summit',
+    //   action: 'Click summit the form',
+    // });
 
     // stella
     emailjs
