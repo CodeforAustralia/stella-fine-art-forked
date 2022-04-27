@@ -26,6 +26,7 @@ const App = () => {
           name="Commission painting"
           content="Fine art painting can be a portrait or ourdoor painting (plein air) and commision painting anything of your interest."
         />
+        <meta name="Commission painting" content="Commission painting" />
       </Helmet>
       <AppRouters />
     </>
