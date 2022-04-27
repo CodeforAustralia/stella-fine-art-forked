@@ -23,7 +23,7 @@ const ContactForm = () => {
   const summitData = async (e) => {
     e.preventDefault();
     setThankMsg(true);
-    gaEventTracker('call');
+    gaEventTracker('Contact Form');
 
     // ReactGa.event({
     //   catergary: 'Summit',
