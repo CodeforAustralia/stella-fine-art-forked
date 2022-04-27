@@ -11,6 +11,7 @@ import './homestyles.css';
 
 const Home = () => {
   const PrintQuotes = QuotesHome();
+
   return (
     <>
       <header>

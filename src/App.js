@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet';
 import React, { useEffect } from 'react';
 import './App.css';
-import AppRouters from './Routers/AppRouters';
+import AppRouters from './Components/Navbar/Routers/AppRouters';
 import ReactGa from 'react-ga';
 
 const GAcode = process.env.REACT_APP_GACODE;
@@ -9,10 +9,10 @@ const GAcode = process.env.REACT_APP_GACODE;
 const App = () => {
   useEffect(() => {
     ReactGa.initialize(GAcode);
+    // TO REPORT PAGE VIEW
+    ReactGa.pageview(window.location.pathname + window.location.search);
+    // console.log('App', window.location.pathname + window.location.search);
   }, []);
-
-  // // TO REPORT PAGE VIEW
-  // ReactGa.pageview(window.location.pathname + window.location.search);
 
   return (
     <>
