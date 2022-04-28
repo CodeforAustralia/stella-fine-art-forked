@@ -105,44 +105,50 @@ export const FloralImages = [
 export const WildLifeImages = [
   {
     id: 1,
+    name: 'Blue and Gold Macaw',
+    size: '40cm(W) x 50cm(H)',
+    image: require('./wildlife/blueandgoldmacaw.jpg').default,
+  },
+  {
+    id: 2,
     name: 'Kookaburra Study by Bishal',
     size: '40cm(W) x 50cm(H)',
     image: require('./wildlife/kookaburrastudybybishal.jpg').default,
   },
   {
-    id: 2,
+    id: 3,
     name: 'Lorikeets in Love',
     size: '15cm(W) x 15cm(H)',
     image: require('./wildlife/lorikeetsinlove.jpg').default,
   },
 
   {
-    id: 3,
+    id: 4,
     name: 'Sulfar Crested Cockatoo in Fruit Tree',
     size: '76cm(W) x 51cm(H)x3.5cm(D)',
     image: require('./wildlife/sulfarcrestedcockatooinfruittree.jpg').default,
   },
   {
-    id: 4,
+    id: 5,
     name: 'Green Parrot in Tree',
     size: '31cm(W) x 39cm(H)',
     image: require('./wildlife/greenparrotintree.jpg').default,
   },
 
   {
-    id: 5,
+    id: 6,
     name: 'Silver-Gull by the Beach',
     size: '30cm(W) x 30cm(H)',
     image: require('./wildlife/silvergullbythebeach.jpg').default,
   },
   {
-    id: 6,
+    id: 7,
     name: 'Majesty',
     size: '31cm(W) x 41cm(H)',
     image: require('./wildlife/majesty.jpg').default,
   },
   {
-    id: 7,
+    id: 8,
     name: 'Baby Blue Sea Turtle',
     size: '30cm(W) x 30cm(H)',
     image: require('./wildlife/babyblueseaturtle.jpg').default,

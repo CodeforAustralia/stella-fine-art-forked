@@ -4,6 +4,22 @@
   font-size: 20px;
   margin-top: 1.5rem;
 }
+.landing_Container .landing_Image {
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 10%;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url('../../Assets/Images/globalimages/threesisters.jpeg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 240px;
+}
 .landing_Image {
   width: 80%;
   margin-left: auto;
@@ -41,8 +57,6 @@
   position: relative;
   display: flex;
   justify-content: center;
-
-  margin-bottom: 1rem;
 }
 
 .home-image-column {
@@ -53,6 +67,49 @@
 .home-image-column img {
   width: 100%;
   /* max-height: 700px; */
+  text-align: center;
+  vertical-align: middle;
+  margin-right: auto;
+  margin-left: auto;
+}
+.macaw-container {
+  text-align: center;
+  margin-bottom: 7rem;
+  color: rgb(116, 108, 108);
+}
+.home-bluethumb {
+  font-weight: 500;
+  font-size: calc(6px + 2.8vmin);
+}
+
+#quickLink_bluethumb_center p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.macaw-images-row {
+  margin-right: auto;
+  margin-left: auto;
+  width: 65%;
+  max-height: 700px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 2rem;
+  gap: 7px;
+  margin-bottom: 3rem;
+}
+
+.macaw-image-column {
+  margin-right: 6px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  margin-right: auto;
+  margin-left: auto;
+}
+.macaw-image-column img {
+  max-width: 100%;
+  max-height: 600px;
   text-align: center;
   vertical-align: middle;
   margin-right: auto;
@@ -93,7 +150,7 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 5rem;
   margin-bottom: 3rem;
   transition-duration: 2s;
   transition-property: width;
@@ -105,7 +162,11 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .landing_Image {
+  /* .landing_Image {
+    width: 100%;
+  } */
+
+  .landing_Container .landing_Image {
     width: 100%;
   }
   .paintbrush_text {

@@ -54,21 +54,19 @@ const ArtistMessage = (
     </p>
     <div id="exhibitionNote">
       <h3>Exhibitions</h3>
-      <p>Solo Exhibition,</p>
-      <p>Art House Cafe,</p>
-      <p>Narellan.</p>
-      <p>January 2021.</p>
+      <p>Sydney Royal Easter Show</p>
+      <p>Kookaburra Study</p>
+      <p>April 2022</p>
+      <br></br>
+      <p>Solo Exhibition</p>
+      <p>Art House Cafe</p>
+      <p>Narellan</p>
+      <p>January 2021</p>
       <br></br>
 
       <p>Blue Mountains Art Prize</p>
       <p>Budgies in love</p>
-      <p>August 2019.</p>
-      <br></br>
-      <h3>Upcoming Exhibitions</h3>
-
-      <p>Sydney Royal Easter Show 2022</p>
-      <p>Kookaburra Study</p>
-      <p>Martin Luther King</p>
+      <p>August 2019</p>
     </div>
   </>
 );

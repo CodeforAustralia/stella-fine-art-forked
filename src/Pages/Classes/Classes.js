@@ -12,13 +12,11 @@ const Classes = () => {
 
       <div id="class_details">
         <h2>CHILDREN'S ART CLASSES</h2>
-        <h2>STARTING SOON - TERM 2</h2>
 
         <div className="class_topNote">
           <p>
-            I will be teaching Children's Art Classes ages 8-14yrs from my
-            Art-Studio. It will be held in Woodbine (near Leumeah) Sydney
-            South-West.
+            Children's Art Classes ages 8-14yrs are being held in Woodbine (near
+            Leumeah) South-West of greater Sydney.
           </p>
           <p>
             These classes are great for beginners interested in learning to

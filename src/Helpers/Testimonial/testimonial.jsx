@@ -12,6 +12,31 @@ export const Testimonial = () => {
       <div className="testimonial-row">
         <div className="column-left">
           <img
+            src={chantelle}
+            alt="Nature Beauty"
+            height=""
+            width=""
+            loading="lazy"
+          />
+        </div>
+        <div className="column-right">
+          <p>
+            "Such beautiful pieces of Australiana, Stella seems to capture such
+            depth into the beautiful creatures and scenic wonders of nature!!"
+            <br></br>
+            <br></br>
+            Absolutely thrilled to own her artwork and show it off! Every single
+            piece is just one of a kind, and we are lucky to own a few! Thank
+            you
+            <br></br>
+            <br></br>~ Chantelle ~
+          </p>
+        </div>
+      </div>
+
+      <div className="testimonial-row">
+        <div className="column-left">
+          <img
             src={Coralwilkins}
             alt="Aussie Lorikeet"
             height=""
@@ -36,30 +61,6 @@ export const Testimonial = () => {
         </div>
       </div>
 
-      <div className="testimonial-row">
-        <div className="column-left">
-          <img
-            src={chantelle}
-            alt="Nature Beauty"
-            height=""
-            width=""
-            loading="lazy"
-          />
-        </div>
-        <div className="column-right">
-          <p>
-            "Such beautiful pieces of Australiana, Stella seems to capture such
-            depth into the beautiful creatures and scenic wonders of nature!!"
-            <br></br>
-            <br></br>
-            Absolutely thrilled to own her artwork and show it off! Every single
-            piece is just one of a kind, and we are lucky to own a few! Thank
-            you
-            <br></br>
-            <br></br>~ Chantelle ~
-          </p>
-        </div>
-      </div>
       <div className="testimonial-row">
         <div className="column-left">
           <img

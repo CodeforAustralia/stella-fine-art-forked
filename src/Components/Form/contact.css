@@ -13,15 +13,16 @@
   margin-bottom: 2rem;
   padding: 10%;
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
-    url('../../Assets/Images/globalimages/threesisters.jpeg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url('../../Assets/Images/globalimages/blueseaturtlebanner.jpg');
+  /* /Users/amuthamuhunthan/stella-fine-art/src/Assets/Images/globalimages/blueseaturtlebanner.jpg */
 
   background-repeat: no-repeat;
   background-size: cover;
   width: 80%;
   margin-right: auto;
   margin-left: auto;
-  height: 190px;
+  height: 260px;
 }
 .contact-main .bg-text {
   text-align: center;
@@ -32,13 +33,8 @@
   transform: translate(-50%, -50%);
   color: white;
 }
-/* .contact-main .bg-text p {
-  font-weight: 400;
-  font-size: 32px;
-} */
 .contact-main p {
   font-style: 30px;
-  /* float: left; */
 }
 
 .contact-main .contact-note {
