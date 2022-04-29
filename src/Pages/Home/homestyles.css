@@ -118,6 +118,9 @@
 .headpaint {
   width: 100%;
 }
+.headpaint h1 {
+  margin-bottom: 2rem;
+}
 #home_paintTitle {
   font-size: calc(6px + 2.6vmin);
 }

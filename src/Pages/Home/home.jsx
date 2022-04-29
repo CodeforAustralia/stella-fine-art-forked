@@ -35,7 +35,7 @@ const Home = () => {
         <div className="paintbrush_text">
           <div className="headpaint">
             {/* <h1>NEW & EXCITING ANNOUNCEMENT</h1> */}
-            <h1 className="announcement_home">Children's Art Classes </h1>{' '}
+            <h1>Children's Art Classes </h1>{' '}
             {/* <p className="announcement_home">Starting in TERM 2 </p> */}
           </div>
           <div className="home-images-row">
